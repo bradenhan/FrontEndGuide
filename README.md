@@ -13,7 +13,7 @@
 * HTML
    * 通用约定
    * 语义化
-   * HEAD]
+   * HEAD
 * CSS
    * 通用约定
    * 字体排印
@@ -27,5 +27,3 @@
 * 移动端优化
 * 工具箱
 * 参考
-
-![husky.png](http://upload-images.jianshu.io/upload_images/8133-4922cb7a9815fe0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
