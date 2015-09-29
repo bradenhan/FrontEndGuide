@@ -13,7 +13,7 @@
 
 ## 目录
 * [Introduction](https://bradenhan.gitbooks.io/front-end/content/index.html)
-* [基本原则](https://bradenhan.gitbooks.io/front-end/basic/index.html)
+* [基本原则](https://bradenhan.gitbooks.io/front-end/content/basic/index.html)
 * HTML
    * [通用约定](https://bradenhan.gitbooks.io/front-end/html/general.html)
    * [语义化](https://bradenhan.gitbooks.io/front-end/html/semantic.html)
