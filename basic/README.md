@@ -75,23 +75,14 @@ color: #E5E5E5;
 ```
 
 ######CSS 注释
-组件块和子组件块以及声明块之间使用一空行分隔；
+组件块和子组件块以及声明块之间使用一空行分隔,注意不要留有对于空格；
 ```css
-/* selector */
- ============================================================================ */
+/* selector */ 
 .selector {padding: 15px; margin-bottom: 15px;}
 
-
-
-/* 子组件块
- ============================================================================ */
-.selector-secondary {
-  display: block; /* 注释*/
-}
-
-.selector-three {
-  display: span;
-}
+/* selector-secondary */
+.selector-secondary {display: block; /* 注释*/}
+.selector-three {display: span;}
 ```
 
 ######JavaScript 注释
