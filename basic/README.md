@@ -67,10 +67,10 @@ color: #E5E5E5;
 - 区块注释
 ```html
 <!--
-@description: Style of top bar drop down menu.
+@description: the stylesheet xxx
 @author: xxxx (xxx@xxx.com)
-@date: Ashu(Aaaaaashu@gmail.com)
-@version:  
+@date:  xx-xx-xx
+@version:  xx
 -->
 ```
 
