@@ -8,7 +8,7 @@
 该指南只是保证大方向一致性和最佳实践的阶段性总结，不是最后结论，它会随着时间而变化。
 
 #####Github: [仓库地址](https://github.com/Aaaaaashu/Front-End-Style-Guide)
-#####知笔墨：[手册地址](https://bradenhan.gitbooks.io/front-end/)
+#####知笔墨：[手册地址](http://zhibimo.com/read/Ashu/front-end-style-guide/)
 
 ## 目录
 * [Introduction](https://bradenhan.gitbooks.io/front-end/)
