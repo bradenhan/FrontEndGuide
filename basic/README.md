@@ -68,8 +68,9 @@ color: #E5E5E5;
 ```html
 <!--
 @description: Style of top bar drop down menu.
-@author: Drop Down Menu
+@author: xxxx (xxx@xxx.com)
 @date: Ashu(Aaaaaashu@gmail.com)
+@version:  
 -->
 ```
 
