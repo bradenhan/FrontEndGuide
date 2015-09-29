@@ -1,7 +1,7 @@
 # 通用约定
 
 #### 标签
-* 自闭合（self-closing）标签，无需闭合 ( 例如： `img` `input` `br` `hr` 等 )；
+* 自闭合（self-closing）标签，无需闭合 ( 例如： `img` `input` `br` `hr` 等 )；** 此处按照不同IDE的设置为准 **
 * 可选的闭合标签（closing tag），需闭合 ( 例如：`</li>` 或 `</body>` )；
 * 尽量减少标签数量；
 
