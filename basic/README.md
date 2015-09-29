@@ -67,9 +67,9 @@ color: #E5E5E5;
 - 区块注释
 ```html
 <!--
-@name: Drop Down Menu
 @description: Style of top bar drop down menu.
-@author: Ashu(Aaaaaashu@gmail.com)
+@author: Drop Down Menu
+@date: Ashu(Aaaaaashu@gmail.com)
 -->
 ```
 
