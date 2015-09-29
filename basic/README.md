@@ -42,14 +42,10 @@ color: #E5E5E5;
 
 ```css
 /* Recommended */
-.example {
-  background: url(//www.google.com/images/example);
-}
+.example {background: url(//www.google.com/images/example);}
 
 /* Not recommended */
-.example {
-  background: url(http://www.google.com/images/example);
-}
+.example {background: url(http://www.google.com/images/example);}
 ```
 
 #### 统一注释
