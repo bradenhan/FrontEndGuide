@@ -145,7 +145,7 @@ function foo(p1, p2, p3) {
  */
 ```
 
-#### 代码验证
+#### 代码验证 （可根据具体情况斟酌采用）
 * 使用 [W3C HTML Validator](http://validator.w3.org/) 来验证你的HTML代码有效性；
 * 使用 [W3C CSS Validator](http://jigsaw.w3.org/css-validator/validator.html.zh-cn) 来验证你的CSS代码有效性；
 
