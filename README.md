@@ -19,6 +19,7 @@
 * HTML
    * [通用约定](https://bradenhan.gitbooks.io/front-end/html/general.html)
    * [语义化](https://bradenhan.gitbooks.io/front-end/html/semantic.html)
+   * [模块化](https://bradenhan.gitbooks.io/front-end/html/structure.html)
    * [HEAD](https://bradenhan.gitbooks.io/front-end/html/head.html)
 * CSS
    * [通用约定](https://bradenhan.gitbooks.io/front-end/css/general.html)
