@@ -115,8 +115,7 @@ function foo(p1, p2, p3) {
  * @author: xxxx (xxx@xxx.com)
  * @date:  xx-xx-xx
  * @version:  xx
- 
- * 函数描述
+  
  * @param {string} p1 参数1的说明
  * @param {string} p2 参数2的说明，比较长
  *     那就换行了.
