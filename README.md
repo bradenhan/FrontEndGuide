@@ -8,27 +8,27 @@
 该指南只是保证大方向一致性和最佳实践的阶段性总结，不是最后结论，它会随着时间而变化。
 
 #####Github: [仓库地址](https://github.com/Aaaaaashu/Front-End-Style-Guide)
-#####知笔墨：[手册地址](http://zhibimo.com/read/Ashu/front-end-style-guide/)
+#####知笔墨：[手册地址](https://bradenhan.gitbooks.io/front-end/)
 
 ## 目录
-* [Introduction](http://zhibimo.com/read/Ashu/front-end-style-guide/)
-* [基本原则](http://zhibimo.com/read/Ashu/front-end-style-guide/basic/index.html)
+* [Introduction](https://bradenhan.gitbooks.io/front-end/)
+* [基本原则](https://bradenhan.gitbooks.io/front-end/basic/index.html)
 * HTML
-   * [通用约定](http://zhibimo.com/read/Ashu/front-end-style-guide/html/general.html)
-   * [语义化](http://zhibimo.com/read/Ashu/front-end-style-guide/html/semantic.html)
-   * [HEAD](http://zhibimo.com/read/Ashu/front-end-style-guide/html/head.html)
+   * [通用约定](https://bradenhan.gitbooks.io/front-end/html/general.html)
+   * [语义化](https://bradenhan.gitbooks.io/front-end/html/semantic.html)
+   * [HEAD](https://bradenhan.gitbooks.io/front-end/html/head.html)
 * CSS
-   * [通用约定](http://zhibimo.com/read/Ashu/front-end-style-guide/css/general.html)
-   * [字体排印](http://zhibimo.com/read/Ashu/front-end-style-guide/css/typography.html)
-   * [模块组织](http://zhibimo.com/read/Ashu/front-end-style-guide/css/structure.html)
-   * [Less 规范](http://zhibimo.com/read/Ashu/front-end-style-guide/css/less.html)
-   * [性能优化](http://zhibimo.com/read/Ashu/front-end-style-guide/css/performance.html)
+   * [通用约定](https://bradenhan.gitbooks.io/front-end/css/general.html)
+   * [字体排印](https://bradenhan.gitbooks.io/front-end/css/typography.html)
+   * [模块组织](https://bradenhan.gitbooks.io/front-end/css/structure.html)
+   * [Less 规范](https://bradenhan.gitbooks.io/front-end/css/less.html)
+   * [性能优化](https://bradenhan.gitbooks.io/front-end/css/performance.html)
 * JavaScript
-   * [通用约定](http://zhibimo.com/read/Ashu/front-end-style-guide/javascript/general.html)
-   * [jQuery 规范](http://zhibimo.com/read/Ashu/front-end-style-guide/javascript/jquery.html)
-   * [性能优化](http://zhibimo.com/read/Ashu/front-end-style-guide/javascript/performance.html)
-* [移动端优化](http://zhibimo.com/read/Ashu/front-end-style-guide/mobile-optimize/index.html)
-* [工具箱](http://zhibimo.com/read/Ashu/front-end-style-guide/tool/index.html)
-* [参考](http://zhibimo.com/read/Ashu/front-end-style-guide/reference/index.html)
+   * [通用约定](https://bradenhan.gitbooks.io/front-end/javascript/general.html)
+   * [jQuery 规范](https://bradenhan.gitbooks.io/front-end/javascript/jquery.html)
+   * [性能优化](https://bradenhan.gitbooks.io/front-end/javascript/performance.html)
+* [移动端优化](https://bradenhan.gitbooks.io/front-end/mobile-optimize/index.html)
+* [工具箱](https://bradenhan.gitbooks.io/front-end/tool/index.html)
+* [参考](https://bradenhan.gitbooks.io/front-end/reference/index.html)
 
 ![](https://raw.githubusercontent.com/Aaaaaashu/Front-End-Style-Guide/master/img/husky.png)
