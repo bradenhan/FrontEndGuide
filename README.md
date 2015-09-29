@@ -12,7 +12,7 @@
 #####知笔墨：[手册地址](http://zhibimo.com/read/Ashu/front-end-style-guide/)
 
 ## 目录
-* [Introduction](https://bradenhan.gitbooks.io/front-end/)
+* [Introduction](https://bradenhan.gitbooks.io/front-end/content/index.html)
 * [基本原则](https://bradenhan.gitbooks.io/front-end/basic/index.html)
 * HTML
    * [通用约定](https://bradenhan.gitbooks.io/front-end/html/general.html)
