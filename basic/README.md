@@ -79,10 +79,7 @@ color: #E5E5E5;
 ```css
 /* selector */
  ============================================================================ */
-.selector {
-  padding: 15px;
-  margin-bottom: 15px;
-}
+.selector {padding: 15px; margin-bottom: 15px;}
 
 
 
