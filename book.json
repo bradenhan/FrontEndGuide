@@ -4,7 +4,7 @@
 
     "links": {
         "home": "https://github.com/bradenhan/Front-End-Style-Guide",
-        "about": "http://aaaaaashu.me/",
+        "about": "github.com/bradenhan/Front-End-Style-Guide",
         "issues": null,
         "contribute": null
     },
@@ -25,7 +25,7 @@
     "plugins": [ "github" ],
     "pluginsConfig": {
       "github": {
-        "url": "https://github.com/Aaaaaashu/F2E-Style-Guide"
+        "url": "github.com/bradenhan/Front-End-Style-Guide"
       }
     }
 
