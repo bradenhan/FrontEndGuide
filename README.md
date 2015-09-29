@@ -24,7 +24,7 @@
    * [通用约定](https://bradenhan.gitbooks.io/front-end/css/general.html)
    * [字体排印](https://bradenhan.gitbooks.io/front-end/css/typography.html)
    * [模块组织](https://bradenhan.gitbooks.io/front-end/css/structure.html)
-   * [Less 规范](https://bradenhan.gitbooks.io/front-end/css/less.html)
+   * [Less 规范（此部分斟酌采用）](https://bradenhan.gitbooks.io/front-end/css/less.html)
    * [性能优化](https://bradenhan.gitbooks.io/front-end/css/performance.html)
 * JavaScript
    * [通用约定](https://bradenhan.gitbooks.io/front-end/javascript/general.html)
