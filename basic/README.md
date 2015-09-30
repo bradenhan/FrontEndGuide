@@ -8,7 +8,7 @@
 
 #### 文件编码
 
-新的项目尽量采用 **utf-8** 编码，但是咨询类、论坛等需要采用gbk编码，需要具体根据具体项目而定。 
+新的项目尽量采用 **utf-8** 编码，但是咨询类、论坛等需要采用 **gbk** 编码，需要具体根据具体项目而定。 
 
 * 在 HTML中指定编码 `<meta charset="utf-8">` ；
 * 无需使用 `@charset` 指定样式表的编码，它默认为 `UTF-8` （参考 [@charset](https://developer.mozilla.org/en-US/docs/Web/CSS/@charset)）；
