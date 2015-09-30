@@ -6,7 +6,7 @@
    * [通用约定](html/general.md)
    * [语义化](html/semantic.md)
    * [HEAD](html/head.md)
-   * [模块化](structure.md)
+   * [模块化](html/structure.md)
 * [CSS](css/README.md)
    * [通用约定](css/general.md)
    * [字体排印](css/typography.md)
