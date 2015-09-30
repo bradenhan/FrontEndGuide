@@ -26,7 +26,7 @@
 #### Class 与 ID
 * class 应以功能或内容命名，不以表现形式命名；
 * class 与 id 单词字母小写，多个单词组成时，采用中划线`-`分隔；
-* 使用唯一的 id 作为 Javascript hook【ID上面尽量不要有样式之类的修饰，样式之类的修饰需要卸载class上面，ID只作为js操作】, 同时避免创建无样式信息的 class；
+* 使用唯一的 id 作为 Javascript hook【ID上面尽量不要有样式之类的修饰，样式之类的修饰需要卸载class上面，ID只作为js操作句柄】, 同时避免创建无样式信息的 class；
 
 ```html
 <!-- Not recommended -->
