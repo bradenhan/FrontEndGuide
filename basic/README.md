@@ -7,6 +7,9 @@
 统一**Tab**缩进（总之缩进统一即可），不要使用 空格 或者 `Tab`、空格混搭。
 
 #### 文件编码
+
+新的项目尽量采用utf-8 编码
+
 **使用不带 `BOM` 的 UTF-8 编码。**
 * 在 HTML中指定编码 `<meta charset="utf-8">` ；
 * 无需使用 `@charset` 指定样式表的编码，它默认为 `UTF-8` （参考 [@charset](https://developer.mozilla.org/en-US/docs/Web/CSS/@charset)）；
