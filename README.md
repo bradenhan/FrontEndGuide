@@ -31,7 +31,7 @@
    * [通用约定](https://bradenhan.gitbooks.io/front-end/content/javascript/general.html)
    * [jQuery 规范](https://bradenhan.gitbooks.io/front-end/content/javascript/jquery.html)
    * [性能优化](https://bradenhan.gitbooks.io/front-end/content/javascript/performance.html)
-* [移动端优化](https://bradenhan.gitbooks.io/front-end/content/mobile-optimize/index.html)
+* [移动端优化](https://bradenhan.gitbooks.io/front-end/mobile-optimize/index.html)
 * [工具箱](https://bradenhan.gitbooks.io/front-end/tool/index.html)
 * [参考](https://bradenhan.gitbooks.io/front-end/reference/index.html)
 
