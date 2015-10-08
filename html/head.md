@@ -1,7 +1,7 @@
 # HEAD
 
 #### 文档类型
-为每个 HTML 页面的第一行添加标准模式（standard mode）的声明， 这样能够确保在每个浏览器中拥有一致的表现。
+为每个 HTML 页面的第一行添加标准模式（standard mode）的HTML5声明， 这样能够确保在每个浏览器中拥有一致的表现。
 
 ```html
 <!DOCTYPE html>
@@ -27,11 +27,23 @@
 #### 字符编码
 * 以无 BOM 的 utf-8 编码作为文件格式;
 * 指定字符编码的 meta 必须是 head 的第一个直接子元素；请参考前端观察的博文： [HTML5 Charset 能用吗？](http://www.qianduan.net/html5-charset-can-it.html)
+* 如果资讯、论坛等一些频道，由于`历史原因`需要用 **gbk** 的编码。
 
 ```html
 <html>
   <head>
     <meta charset="utf-8">
+    ......
+  </head>
+  <body>
+    ......
+  </body>
+</html>
+```
+```html
+<html>
+  <head>
+    <meta charset="gbk">
     ......
   </head>
   <body>
@@ -47,18 +59,28 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 ```
 
+#### 360浏览器
+由于360浏览器默认模式为IE7模式，为了避免一些错误，需要加上单独的meta标签如下：
+
+```html
+<meta name="renderer" content="webkit">
+```
+
 #### SEO 优化
 ```html
 <head>
     <meta charset="utf-8">
+	<meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- SEO -->
     <title>Style Guide</title>
     <meta name="keywords" content="your keywords">
-    <meta name="description" content="your description">
-    <meta name="author" content="author,email address">
+    <meta name="description" content="your description"> 
 </head>
 ```
+
+**** 
+###以下部分是H5页面需要用到的部分内容
 
 #### viewport
 * `viewport`: 一般指的是浏览器窗口内容区的大小，不包含工具条、选项卡等内容；
@@ -106,11 +128,11 @@
 <html lang="zh-cmn-Hans">
 <head>
     <meta charset="utf-8">
+	<meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Style Guide</title>
     <meta name="description" content="不超过150个字符">
-    <meta name="keywords" content="">
-    <meta name="author" content="name, email@gmail.com">
+    <meta name="keywords" content=""> 
 
     <!-- 为移动设备添加 viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
