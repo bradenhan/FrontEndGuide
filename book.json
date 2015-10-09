@@ -25,7 +25,7 @@
     "plugins": [ "github" ],
     "pluginsConfig": {
       "github": {
-        "url": "https://github.com/bradenhan/Front-End-Style-Guide"
+        "url": "http://bradenhan.github.io/front-end/e"
       }
     }
 
