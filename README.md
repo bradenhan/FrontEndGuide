@@ -11,8 +11,8 @@
  
 此版本的第一版是根据**阿树**的 **前端开发规范手册** 修改而来，感恩**阿树**  
 
-#####Github: [仓库地址](https://github.com/Aaaaaashu/Front-End-Style-Guide)
-#####知笔墨：[手册地址](http://zhibimo.com/read/Ashu/front-end-style-guide/)  
+<!--#####Github: [仓库地址](https://github.com/Aaaaaashu/Front-End-Style-Guide)
+#####知笔墨：[手册地址](http://zhibimo.com/read/Ashu/front-end-style-guide/)  -->
 
 ## 目录
 * [Introduction](https://bradenhan.gitbooks.io/front-end/content/index.html)
