@@ -25,7 +25,7 @@
     "plugins": [ "github" ],
     "pluginsConfig": {
       "github": {
-        "url": "http://bradenhan.github.io/front-end/e"
+        "url": "http://bradenhan.github.io/front-end/"
       }
     }
 
