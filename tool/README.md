@@ -12,4 +12,6 @@
 
 [YOU MIGHT NOT NEED JQUERY](http://youmightnotneedjquery.com/)
 
+[CSS选择器的浏览器支持](http://labs.qianduan.net/css-selector/ "CSS选择器的浏览器支持")
+
 待续...
