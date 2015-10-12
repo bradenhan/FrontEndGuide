@@ -3,8 +3,8 @@
     "title": "前端暂行规范",
 
     "links": {
-        "home": "https://github.com/bradenhan/Front-End-Style-Guide",
-        "about": "https://github.com/bradenhan/Front-End-Style-Guide",
+        "home": "https://git.gitbook.com/bradenhan/front-end.git",
+        "about": "https://git.gitbook.com/bradenhan/front-end.git",
         "issues": null,
         "contribute": null
     },
@@ -25,7 +25,7 @@
     "plugins": [ "github" ],
     "pluginsConfig": {
       "github": {
-        "url": "https://github.com/bradenhan/Front-End-Style-Guide"
+        "url": "https://git.gitbook.com/bradenhan/front-end.git"
       }
     }
 
