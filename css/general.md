@@ -1,45 +1,46 @@
 # 通用约定
 
+- 为了避免CSS由于** 编码问题出现中文乱码导致页面解析错误**，CSS中尽量不要出现中文，尤其是属性名，需要的话可以用英文代替，或者转码。
+- [字体英文和中文编码对应地址](http://www.jb51.net/css/67658.html 字体英文和中文编码对应地址) 
+
 #### 代码组织
 - 以组件为单位组织代码段；
-- 制定一致的注释规范；
-- `组件块和子组件块`以及`声明块`之间使用**一空行**分隔，`子组件块`之间**三空行**分隔；
+- 制定一致的注释规范，可参考前面 ** [基本原则](https://bradenhan.gitbooks.io/front-end/content/basic/index.html "基本原则") 下面的 统一注释 中关于css注释部分 **；
+- `组件块和子组件块`以及`声明块`之间使用**一空行**分隔 ** 注意不要留有多余的空格和空行 **；
 - 如果使用了多个 CSS 文件，将其按照组件而非页面的形式分拆，因为页面会被重组，而组件只会被移动；
-
-良好的注释是非常重要的。请留出时间来描述组件（component）的工作方式、局限性和构建它们的方法。不要让你的团队其它成员 来猜测一段不通用或不明显的代码的目的。
+- 每个模块之间，需要加上注释，注释名称为模块第一级样式名 
 
 提示：通过配置编辑器，可以提供快捷键来输出一致认可的注释模式。
 
 ```css
-/* ==========================================================================
-   组件块
- ============================================================================ */
+/**  
+ * @Description: the stylesheet section  
+ * @authors: XXX (XXX@fengniao.com)
+ * @date:    2015-10-12 10:57:15
+ * @version: 1.0
+ */
 
-/* 子组件块
- ============================================================================ */
-.selector {
-  padding: 15px;
-  margin-bottom: 15px;
-}
+```
 
+```
+/* section */
+.section{padding: 15px; margin-bottom: 15px;}
 
+/* selector */
+.section .selector {padding: 15px; margin-bottom: 15px;} 
 
-/* 子组件块
- ============================================================================ */
-.selector-secondary {
-  display: block; /* 注释*/
-}
+/* selector-secondary */
+.section .selector-secondary {display: block; /* 注释*/}
 
-.selector-three {
-  display: span;
-}
+.section .selector-three {display: span;}
 ```
 
 #### Class 和 ID
 - 使用语义化、通用的命名方式；
-- 使用连字符 - 作为 ID、Class 名称界定符，不要驼峰命名法和下划线；
+- 使用连字符（中划线）- 作为 Class 名称界定符，ID则使用 ** 驼峰命名法或下划线 **；
 - 避免选择器嵌套层级过多，尽量少于 3 级；
 - 避免选择器和 Class、ID 叠加使用；
+- 切片中不应该出现ID，除非有js操作。
 
 出于[性能考量](http://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/)，在没有必要的情况下避免元素选择器叠加 Class、ID  使用。
 
@@ -60,9 +61,11 @@ ul#example {}
 
 #### 声明块格式
 - 选择器分组时，保持独立的选择器占用一行；
-- 声明块的左括号 `{` 前添加一个空格；
+- 声明块的左括号 `{` 前不需要添加空格；
 - 声明块的右括号 `}` 应单独成行；
 - 声明语句中的 `:` 后应添加一个空格；
+- 声明语句中属性名和属性值之间需要留有一个空格
+- 声明语句中属性和属性之间需要留有一个空格 
 - 声明语句应以分号 `;` 结尾；
 - 一般以逗号分隔的属性值，每个逗号后应添加一个空格；
 - `rgb()`、`rgba()`、`hsl()`、`hsla()` 或 `rect()`  括号内的值，逗号分隔，但逗号后不添加一个空格；
@@ -72,26 +75,16 @@ ul#example {}
 
 ```css
 /*  Not recommended  */
-.selector, .selector-secondary, .selector[type=text] {
-  padding:15px;
-  margin:0px 0px 15px;
-  background-color:rgba(0, 0, 0, 0.5);
-  box-shadow:0px 1px 2px #CCC,inset 0 1px 0 #FFFFFF
-}
+.selector, .selector-secondary, .selector[type=text] {padding:15px; margin:0px 0px 15px; background-color:rgba(0, 0, 0, 0.5); box-shadow:0px 1px 2px #CCC,inset 0 1px 0 #FFFFFF}
 
 /* Recommended */
 .selector,
 .selector-secondary,
-.selector[type="text"] {
-  padding: 15px;
-  margin-bottom: 15px;
-  background-color: rgba(0,0,0,.5);
-  box-shadow: 0 1px 2px #ccc, inset 0 1px 0 #fff;
-}
+.selector[type="text"]{padding: 15px; margin-bottom: 15px; background-color: rgba(0,0,0,.5); box-shadow: 0 1px 2px #ccc, inset 0 1px 0 #fff;}
 ```
 
 #### 声明顺序
-相关属性应为一组，推荐的样式编写顺序
+相关属性应为一组，推荐的样式编写顺序: ** 显示属性（position） > 自身属性(box model) > 文本属性(Typographic、Visual) ** 
 1. Positioning
 2. Box model
 3. Typographic
@@ -104,34 +97,16 @@ ul#example {}
 ```css
 .declaration-order {
   /* Positioning */
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 100;
+  position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 100;
 
   /* Box model */
-  display: block;
-  box-sizing: border-box;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  border: 1px solid #e5e5e5;
-  border-radius: 3px;
-  margin: 10px;
-  float: right;
-  overflow: hidden;
+  display: block; box-sizing: border-box; width: 100px; height: 100px; padding: 10px; border: 1px solid #e5e5e5; border-radius: 3px; margin: 10px; float: right; overflow: hidden;
 
   /* Typographic */
-  font: normal 13px "Helvetica Neue", sans-serif;
-  line-height: 1.5;
-  text-align: center;
+  font: normal 13px "Helvetica Neue", sans-serif; line-height: 1.5; text-align: center;
 
   /* Visual */
-  background-color: #f5f5f5;
-  color: #fff;
-  opacity: .8;
+  background-color: #f5f5f5; color: #fff; opacity: .8;
 
   /* Other */
   cursor: pointer;
@@ -162,12 +137,14 @@ html {
 ```
 
 #### 媒体查询（Media query）的位置
-将媒体查询放在尽可能相关规则的附近。不要将他们打包放在一个单一样式文件中或者放在文档底部。如果你把他们分开了，将来只会被大家遗忘。
+将媒体查询放在尽可能放在页面底部。如果页面有压缩，需要检查压缩后的媒体查询语句是否正常【主要是大括号问题】。
 
 ```css
 .element { ... }
 .element-avatar { ... }
 .element-selected { ... }
+
+....
 
 @media (max-width: 768px) {
   .element { ...}
@@ -189,7 +166,11 @@ html {
 #### 链接的样式顺序：
 `a:link -> a:visited -> a:hover -> a:active（LoVeHAte）`
 
-#### 无需添加浏览器厂商前缀
+#### CSS3 属性需加浏览器厂商前缀
+
+对于CSS3 属性，需添加浏览器厂商前缀,H5页面，必须要加上谷歌浏览器前缀（-webkit）。
+
+<!-- #### 无需添加浏览器厂商前缀 
 使用 [Autoprefixer](https://github.com/postcss/autoprefixer) 自动添加浏览器厂商前缀，编写 CSS 时不需要添加浏览器前缀，直接使用标准的 CSS 编写。
 
-Autoprefixer 通过 [Can I use](http://caniuse.com/)，按兼容的要求，对相应的 CSS 代码添加浏览器厂商前缀。
+Autoprefixer 通过 [Can I use](http://caniuse.com/)，按兼容的要求，对相应的 CSS 代码添加浏览器厂商前缀。-->

@@ -68,7 +68,7 @@ color: #E5E5E5;
 - 区块注释
 ```html
 <!--
-@description: the stylesheet xxx
+@description: the modle of xxx
 @author: xxxx (xxx@xxx.com)
 @date:  xx-xx-xx
 @version:  xx
@@ -76,6 +76,19 @@ color: #E5E5E5;
 ```
 
 ######CSS 注释
+
+样式表总体注释 -- 声明样式表的相关信息
+
+``` CSS
+/**  
+ * @Description: the stylesheet of XXX 
+ * @authors: xxx (xxx@fengniao.com)
+ * @date:    2015-10-12 10:57:15
+ * @version: 1.0
+ */ 
+
+```
+
 组件块和子组件块以及声明块之间使用一空行分隔，注意不要留有多于的空格；
 ```css
 /* selector */ 
@@ -84,6 +97,7 @@ color: #E5E5E5;
 /* selector-secondary */
 .selector-secondary {display: block; /* 注释*/}
 .selector-three {display: span;}
+
 ```
 
 ######JavaScript 注释
