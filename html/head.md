@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 ```
 
-#### 语言属性
+#### 语言属性 (酌情采用)
 为什么使用 lang="zh-cmn-Hans" 而不是我们通常写的 lang="zh-CN" 呢? 请参考知乎上的讨论: [网页头部的声明应该是用 lang="zh" 还是 lang="zh-cn"？](http://www.zhihu.com/question/20797118)
 
 ```html
@@ -66,7 +66,9 @@
 <meta name="renderer" content="webkit">
 ```
 
-#### SEO 优化
+#### SEO 优化    
+**H1**标签和**H2**标签为SEO预留，所以，页面上尽量不要有H1和H2标签。
+
 ```html
 <head>
     <meta charset="utf-8">
