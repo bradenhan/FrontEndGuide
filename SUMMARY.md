@@ -1,7 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
-* [基本原则](basic/README.md)
+* [目录结构和文件命名](directory-structure/README.md)
+* [图片](directory-picture/README.md) 
+* [代码基本原则](basic/README.md)
 * [HTML](html/README.md)
    * [通用约定](html/general.md)
    * [语义化](html/semantic.md)

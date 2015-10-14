@@ -9,14 +9,16 @@
    
 该规范只是保证大方向一致性和最佳实践的阶段性总结，不是最后结论，它会随着时间而变化。 
  
-此版本的第一版是根据**阿树**的 **前端开发规范手册** 修改而来，感恩**阿树**  
+此版本的第一版是根据**阿树**的 **前端开发规范手册** 和 ** ZOL前端规范1.1 ** 修改而来，感恩他们。  
 
 <!--#####Github: [仓库地址](https://github.com/Aaaaaashu/Front-End-Style-Guide)
 #####知笔墨：[手册地址](http://zhibimo.com/read/Ashu/front-end-style-guide/)  -->
 
 ## 目录
 * [Introduction](https://bradenhan.gitbooks.io/front-end/content/index.html)
-* [基本原则](https://bradenhan.gitbooks.io/front-end/content/basic/index.html)
+* [目录结构和文件命名](https://bradenhan.gitbooks.io/front-end/content/directory-structure/index.html) 
+* [图片](https://bradenhan.gitbooks.io/front-end/content/directory-picture/index.html)
+* [代码基本原则](https://bradenhan.gitbooks.io/front-end/content/basic/index.html)
 * HTML
    * [通用约定](https://bradenhan.gitbooks.io/front-end/content/html/general.html)
    * [语义化](https://bradenhan.gitbooks.io/front-end/content/html/semantic.html)
