@@ -23,6 +23,49 @@
 <!-- English -->
 <html lang="en">
 ```
+#### meta标签
+<meta> 元素可提供有关页面的元信息（meta-information），比如针对搜索引擎和更新频度的描述和关键词。
+<meta> 标签位于文档的头部，不包含任何内容。<meta> 标签的属性定义了与文档相关联的名称/值对。
+详细可查看[HTML META 标签](http://www.w3school.com.cn/tags/tag_meta.asp "HTML <meta> 标签")
+
+常用的meta标签如下,[详情可查看](http://fex.baidu.com/blog/2014/10/html-head-tags/ "百度FEX HTML head 头标签")：
+```
+<meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="keywords" content="your keywords">
+<meta name="description" content="your description"> 
+
+以下是移动端用的比较多的
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection"content="telephone=no, email=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" /><!-- 删除苹果默认的工具栏和菜单栏 -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black" /><!-- 设置苹果工具栏颜色 -->
+<meta name="format-detection" content="telphone=no, email=no" /><!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+<!-- 启用360浏览器的极速模式(webkit) --> 
+<!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+<meta name="HandheldFriendly" content="true">
+<!-- 微软的老式浏览器 -->
+<meta name="MobileOptimized" content="320">
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait">
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<!-- UC强制全屏 -->
+<meta name="full-screen" content="yes">
+<!-- QQ强制全屏 -->
+<meta name="x5-fullscreen" content="true">
+<!-- UC应用模式 -->
+<meta name="browsermode" content="application">
+<!-- QQ应用模式 -->
+<meta name="x5-page-mode" content="app">
+<!-- windows phone 点击无高光 -->
+<meta name="msapplication-tap-highlight" content="no">
+<!-- 适应移动端end -->
+```
 
 #### 字符编码
 * 以无 BOM 的 utf-8 编码作为文件格式;
@@ -124,7 +167,7 @@
 <link rel="shortcut icon" href="path/to/favicon.ico">
 ```
 
-#### HEAD 模板
+#### HEAD 模板 (可根据实际项目斟酌加减meta标签)
 ```html
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans">
@@ -137,12 +180,7 @@
     <meta name="keywords" content=""> 
 
     <!-- 为移动设备添加 viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- iOS 图标 -->
-    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-57x57-precomposed.png">
-
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="shortcut icon" href="path/to/favicon.ico">
 </head>
 ```
