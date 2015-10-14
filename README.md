@@ -13,7 +13,8 @@
 <!--#####Github: [仓库地址](https://github.com/Aaaaaashu/Front-End-Style-Guide)
 #####知笔墨：[手册地址](http://zhibimo.com/read/Ashu/front-end-style-guide/)  -->
 
-## 目录
+
+<!--## 目录
 * [Introduction](https://bradenhan.gitbooks.io/front-end/content/index.html)
 * [目录结构和文件命名](https://bradenhan.gitbooks.io/front-end/content/directory-structure/index.html) 
 * [图片](https://bradenhan.gitbooks.io/front-end/content/directory-picture/index.html)
