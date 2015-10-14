@@ -4,7 +4,7 @@
 网页中所有和内容无关的装饰性的图片都应该使用背景图片或图片字体；而和内容有关的图片都不得使用背景图。
 
 在切片时，如遇到内容/广告等图片，可以使用公用的示例图片：  
-![](https://bradenhan.gitbooks.io/front-end/content/img/photo.jpg)
+![](https://bradenhan.gitbooks.io/front-end/content/img/photo.jpg)  
 http://test.svn.fengniao.com/frontend_svn/fengniao/common-pic/photo.jpg
 
 #### 图片格式 
