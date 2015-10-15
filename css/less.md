@@ -1,4 +1,4 @@
-# LESS
+# LESS -- 鉴于实际项目考虑，此部分只作为参考部分
 
 #### 代码组织
 代码按一下顺序组织：
@@ -11,10 +11,7 @@
 
 @default-text-color: #333;
 
-.page {
-  width: 960px;
-  margin: 0 auto;
-}
+.page{width: 960px; margin: 0 auto;}
 ```
 
 #### @import 语句
@@ -64,5 +61,21 @@ h3 {
 变量可以用类似ruby和php的方式嵌入到字符串中，像@{name}这样的结构:
 `@base-url: "http://assets.fnord.com";`
 `background-image: url("@{base-url}/images/bg.png");`
+
+#### LESS编辑器
+ ** Sublime Text **
+
+ 软件下载地址：
+ [Sublime Text：](http://www.sublimetext.com/ "Sublime Text") 
+
+ 插件下载地址：
+
+* [Installation - Package Control](https://packagecontrol.io/installation "Installation - Package Control")
+* [Less2Css](https://packagecontrol.io/packages/Less2Css "Less2Css")
+
+** HBuilder **
+
+软件下载地址：
+ [HBuilder](http://dcloud.io/ "HBuilder") 
 
 

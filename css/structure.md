@@ -8,7 +8,7 @@
 `Reasonable System for CSS Stylesheet Structure` 的目标就是解决以上问题，它不是一个框架，而是通过规范，让你构建更健壮和可维护的 CSS 代码。
 
 #### Components（组件）
-![Components](https://github.com/rstacruz/rscss/raw/master/images/component-example.png)
+<!-- ![Components](https://github.com/rstacruz/rscss/raw/master/images/component-example.png)-->
 
 从 `Components` 的角度思考，将网站的模块都作为一个独立的 `Components`。
 
@@ -19,7 +19,7 @@
 - 文章卡片 (`.article-card`)
 
 #### Elements （元素）
-![Elements](https://github.com/rstacruz/rscss/raw/master/images/component-elements.png)
+<!--![Elements](https://github.com/rstacruz/rscss/raw/master/images/component-elements.png)-->
 
 `Elements` 是 `Components` 中的元素
 
@@ -52,12 +52,12 @@
 ```
 
 #### Variants （变体）
-![Variants](https://github.com/rstacruz/rscss/raw/master/images/component-modifiers.png)
+<!-- ![Variants](https://github.com/rstacruz/rscss/raw/master/images/component-modifiers.png)-->
 
 `Components` 和 `Elements` 可能都会拥有 `Variants`。
 
 ##### Naming variants （变体命名）
-`Variants` 的 `classname` 应带有前缀中划线 `-`
+`Variants` 的 `classname` 应带有前缀中划线 `-` ,以下是less的写法
 ```css
   .like-button {
     &.-wide { /* ... */ }
@@ -81,7 +81,7 @@
 - 中划线比下划线更容易输出
 
 #### Layout （布局）
-![Layout](https://github.com/rstacruz/rscss/raw/master/images/layouts.png)
+<!-- ![Layout](https://github.com/rstacruz/rscss/raw/master/images/layouts.png)-->
 
 ##### Avoid positioning properties （避免定位属性）
 Components 应该在不同的上下文中都可以复用，所以应避免设置以下属性：
