@@ -44,10 +44,9 @@ function foo(p1, p2, p3) {
 
 ```javascript
 /**
- * @fileoverview Description of file, its uses and information
- * about its dependencies.
- * @author user@meizu.com (Firstname Lastname)
- * Copyright 2009 Meizu Inc. All Rights Reserved.
+ * @fileoverview Description of file, its uses and information about its dependencies.
+ * @author user@XXX.com (Firstname Lastname)
+ * @version 1.0
  */
 ```
 

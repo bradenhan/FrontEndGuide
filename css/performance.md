@@ -164,3 +164,14 @@ treehead > treerow > treecell {…}
 /* Recommended */
 #bookmarkMenuItem { list-style-image: url(blah) }
 ```
+#### 其他 提升 CSS 选择器性能的方法 [详情可查看](http://www.cnblogs.com/dolphinX/p/3508657.html "常用CSS优化总结——网络性能与语法性能建议")
+
+1. CSS压缩
+2. 合写CSS
+3. 利用继承
+4. 抽离、拆分CSS，不加载所有CSS
+5. CSS sprites
+6. CSS放在head中，减少repaint和reflow
+7. 不用CSS表达式
+8. 不乱用CSS reset或属性设置
+9. 避免层级或过度限制的CSS (详见本手册CSS通用手册部分) 
