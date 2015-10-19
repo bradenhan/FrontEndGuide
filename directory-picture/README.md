@@ -8,7 +8,7 @@
 http://test.svn.fengniao.com/frontend_svn/fengniao/common-pic/photo.jpg
 
 #### 图片格式 
-网页中所有的图片应使用 PNG-8、 PNG-24、 GIF 和 JPEG 格式。
+网页中所有的图片应使用 PNG-8、 PNG-24、 GIF 和 JPEG 格式，背景图片可以是`base64`格式。
 
 | 格式 | 扩展名| 特点、使用场景和注意事项 |
 | -- | --| -- |  
