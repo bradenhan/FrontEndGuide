@@ -21,6 +21,7 @@
    * [性能优化](javascript/performance.md)
 * [移动端优化](mobile-optimize/README.md)
    * [通用约定](javascript/general.md)
+   * [性能优化](javascript/performance.md)
 * [兼容性和测试](compatibility-and-testing/README.md)
 * [工具箱](tool/README.md)
 * [参考](reference/README.md)
