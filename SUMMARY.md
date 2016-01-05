@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [简介](README.md)
 * [目录结构和文件命名](directory-structure/README.md)
 * [图片](directory-picture/README.md) 
 * [代码基本原则](basic/README.md)
