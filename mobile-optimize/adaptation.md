@@ -43,7 +43,7 @@ lib-flexible库的使用方法非常的简单，只需要在Web页面的<head></
 ```
 <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
 ```
-** 修改后的地址：[flexible.debug.js](flexible.debug.js)、[flexible_css.js](flexible_css.js)，我们需要用这个** 。
+** 修改后的地址：[flexible.js](flexible.js)、[flexible_css.js](flexible_css.js)，我们需要用这个** 。
 
 **html模板**
 ```
