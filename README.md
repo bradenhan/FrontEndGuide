@@ -15,28 +15,28 @@
 
 
 ## 目录
-* [Introduction](content/index.html)
-* [目录结构和文件命名](content/directory-structure/index.html) 
-* [图片](content/directory-picture/index.html)
-* [代码基本原则](content/basic/index.html)
+* [Introduction](index.html)
+* [目录结构和文件命名](directory-structure/index.html) 
+* [图片](directory-picture/index.html)
+* [代码基本原则](basic/index.html)
 * HTML
-   * [通用约定](content/html/general.html)
-   * [语义化](content/html/semantic.html)
-   * [模块化](content/html/structure.html)
-   * [HEAD](content/html/head.html)
+   * [通用约定](html/general.html)
+   * [语义化](html/semantic.html)
+   * [模块化](html/structure.html)
+   * [HEAD](html/head.html)
 * CSS
-   * [通用约定](content/css/general.html)
-   * [字体排印](content/css/typography.html)
-   * [模块组织](content/css/structure.html)
-   * [Less 规范](content/css/less.html)
-   * [性能优化](content/css/performance.html)
+   * [通用约定](css/general.html)
+   * [字体排印](css/typography.html)
+   * [模块组织](css/structure.html)
+   * [Less 规范](css/less.html)
+   * [性能优化](css/performance.html)
 * JavaScript
-   * [通用约定](content/javascript/general.html)
-   * [jQuery 规范](content/javascript/jquery.html)
-   * [性能优化](content/javascript/performance.html)
-* [移动端优化](content/mobile-optimize/index.html)
-* [工具箱](content/tool/index.html)
-* [参考](content/reference/index.html)
+   * [通用约定](javascript/general.html)
+   * [jQuery 规范](javascript/jquery.html)
+   * [性能优化](javascript/performance.html)
+* [移动端优化](mobile-optimize/index.html)
+* [工具箱](tool/index.html)
+* [参考](reference/index.html)
 
 ![](/img/husky.png)
  
