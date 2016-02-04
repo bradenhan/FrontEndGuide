@@ -36,7 +36,7 @@
    * [性能优化](javascript/performance.html)
 * H5 + 移动端
 	* [移动端优化](mobile-optimize/index.html) 
-* [代码存储](code-storage/index.html)  
+* [代码存储] 
 	* [SVN](code-storage/SVN.html)  
 * [兼容性和测试](compatibility-and-testing/index.html)
 * 附录

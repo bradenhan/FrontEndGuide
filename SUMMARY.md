@@ -24,7 +24,7 @@
    * [性能优化](mobile-optimize/performance.md)
    * [移动端适配](mobile-optimize/adaptation.md)
 * [代码存储](code-storage/README.md) 
-	*[SVN](code-storage/SVN.md) 
+	* [SVN](code-storage/SVN.md) 
 * [兼容性和测试](compatibility-and-testing/README.md)
 * [附录](appendix/README.md) 
 	* [工具箱](appendix/tool.md)
