@@ -37,7 +37,7 @@
 * H5 + 移动端
 	* [移动端优化](mobile-optimize/index.html) 
 * [代码存储](code-storage/index.html)  
-	*[SVN](code-storage/SVN.html)  
+	* [SVN](code-storage/SVN.html)  
 * [兼容性和测试](compatibility-and-testing/index.html)
 * 附录
 	* [工具箱](appendix/tool.html)
