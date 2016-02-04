@@ -24,18 +24,23 @@
    * [语义化](html/semantic.html)
    * [模块化](html/structure.html)
    * [HEAD](html/head.html)
+   * [大招必读--通用模板](html/globalTemplate.html)
 * CSS
    * [通用约定](css/general.html)
    * [字体排印](css/typography.html)
    * [模块组织](css/structure.html)
    * [Less 规范](css/less.html)
    * [性能优化](css/performance.html)
+   * [大招必读--通用模板](css/globalTemplate.html)
 * JavaScript
    * [通用约定](javascript/general.html)
    * [jQuery 规范](javascript/jquery.html)
    * [性能优化](javascript/performance.html)
 * H5 + 移动端
-	* [移动端优化](mobile-optimize/index.html) 
+	* [通用约定](mobile/general.html)
+    * [性能优化](mobile/performance.html)
+    * [移动端适配](mobile/adaptation.html) 
+    * [大招必读--通用模板](mobile/globalTemplate.html)
 * [代码存储] 
 	* [SVN](code-storage/SVN.html)  
 * [兼容性和测试](compatibility-and-testing/index.html)
