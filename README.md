@@ -34,9 +34,14 @@
    * [通用约定](javascript/general.html)
    * [jQuery 规范](javascript/jquery.html)
    * [性能优化](javascript/performance.html)
-* [移动端优化](mobile-optimize/index.html)
-* [工具箱](tool/index.html)
-* [参考](reference/index.html)
+* H5 + 移动端
+	* [移动端优化](mobile-optimize/index.html) 
+* [代码存储](code-storage/index.html)  
+	*[SVN](code-storage/SVN.html)  
+* [兼容性和测试](compatibility-and-testing/index.html)
+* 附录
+	* [工具箱](tool/index.html)
+	* [参考](reference/index.html)
 
 ![](/img/husky.png)
  
