@@ -40,8 +40,8 @@
 	*[SVN](code-storage/SVN.html)  
 * [兼容性和测试](compatibility-and-testing/index.html)
 * 附录
-	* [工具箱](tool/index.html)
-	* [参考](reference/index.html)
+	* [工具箱](appendix/tool.html)
+	* [参考](appendix/reference.html)
 
 ![](/img/husky.png)
  

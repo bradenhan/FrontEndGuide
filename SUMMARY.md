@@ -26,7 +26,7 @@
 * [代码存储](code-storage/README.md) 
 	*[SVN](code-storage/SVN.md) 
 * [兼容性和测试](compatibility-and-testing/README.md)
-* [附录](tool/README.md) 
-	* [工具箱](tool/README.md)
-	* [参考](reference/README.md)
+* [附录](appendix/README.md) 
+	* [工具箱](appendix/tool.md)
+	* [参考](appendix/reference.md)
 
