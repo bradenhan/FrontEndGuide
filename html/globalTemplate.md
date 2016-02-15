@@ -110,7 +110,7 @@ html模板如** 无特殊需求，都需要采用html5声明 **，即 ```<!DOCTY
   	```
 	- ** wap站模板 ** 
 	
-	如果不使用REM的话，请参考后章：[移动端适配](mobile/adaptation.html)，否则，请参考上面 ** 通用模板 **。
+	如果不使用REM的话，请参考后章：[移动端适配](../mobile/adaptation.html)，否则，请参考上面 ** 通用模板 **。
 	- ** H5专题模板 **
 	```
 	<!doctype html>
