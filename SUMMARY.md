@@ -25,7 +25,7 @@
    * [通用约定](mobile/general.md)
    * [性能优化](mobile/performance.md)
    * [移动端适配](mobile/adaptation.md)
-   * [大招必读--通用模板](mobile/globalTemplate.md)
+  <!-- * [大招必读--通用模板](mobile/globalTemplate.md)-->
 * [代码存储](code-storage/README.md) 
 	* [SVN](code-storage/SVN.md) 
 * [兼容性和测试](compatibility-and-testing/README.md)

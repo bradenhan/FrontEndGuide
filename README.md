@@ -40,7 +40,7 @@
 	* [通用约定](mobile/general.html)
     * [性能优化](mobile/performance.html)
     * [移动端适配](mobile/adaptation.html) 
-    * [大招必读--通用模板](mobile/globalTemplate.html)
+   <!-- * [大招必读--通用模板](mobile/globalTemplate.html)-->
 * [代码存储] 
 	* [SVN](code-storage/SVN.html)  
 * [兼容性和测试](compatibility-and-testing/index.html)
