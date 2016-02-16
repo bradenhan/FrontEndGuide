@@ -31,5 +31,5 @@ visibility:hidden; font:0/0 Arial}
 clear: both; visibility: hidden; font-size:0}
 .clearfix {*zoom:1}
 ```
-如无特使情况，** 前端频道必须使用此reset **。
+如无特殊情况，** 前端频道必须使用此reset **。
   
