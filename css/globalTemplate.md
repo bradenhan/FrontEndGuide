@@ -14,8 +14,7 @@ css模板，其实就是reset。
  * @authors: XXX
  * @date   : XXX
  * @version: XX
- */
- 
+ */ 
 ```
 
 ### ** PC频道的reset **
