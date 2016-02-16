@@ -13,7 +13,7 @@
 <!--#####Github: [仓库地址](https://github.com/Aaaaaashu/Front-End-Style-Guide)
 #####知笔墨：[手册地址](http://zhibimo.com/read/Ashu/front-end-style-guide/)  -->
 
-更新日期：20160217
+更新日期：20160216
 
 ## 目录
 * [Introduction](index.html)
