@@ -21,7 +21,7 @@
     "plugins": [
         "github",
         "-ace",
-        "addcssjs",
+        "-addcssjs",
         "chart",
         "layout",
         "mystyle"
