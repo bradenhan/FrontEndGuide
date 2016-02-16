@@ -20,7 +20,7 @@
     },
     "plugins": [
         "github",
-        "ace",
+        "-ace",
         "addcssjs",
         "chart",
         "layout",
