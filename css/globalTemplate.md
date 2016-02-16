@@ -62,3 +62,4 @@ appearance: none; -webkit-border-image: none; border-image: none; -webkit-border
 .clearfix:after{content: ""; display: block; height: 0; overflow: hidden; clear: both; visibility: hidden;}
 *{-webkit-tap-highlight-color:rgba(255,0,0,0);}
 ```
+如无特殊情况， 前端频道必须使用此reset 。
