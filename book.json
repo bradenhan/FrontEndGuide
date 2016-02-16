@@ -22,7 +22,8 @@
         "github",
         "ace",
         "addcssjs",
-        "chart"
+        "chart",
+        "layout"
     ],
     "pluginsConfig": {
         "github": {
