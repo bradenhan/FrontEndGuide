@@ -3,6 +3,6 @@
 
 ### **css模板**
 
-css模板，其实就是reset,
+css模板，其实就是reset。
 
   
