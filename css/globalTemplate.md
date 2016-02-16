@@ -44,7 +44,7 @@ clear: both; visibility: hidden; font-size:0}
 ```
 如无特殊情况，** 前端频道必须使用此reset **。
 
-### ** Wap站的reset **  
+-  ### ** Wap站的reset **  
 
 ```
 /**
