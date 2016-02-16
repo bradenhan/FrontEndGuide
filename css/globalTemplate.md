@@ -10,6 +10,12 @@ css模板，其实就是reset。
 ### ** PC频道的reset **
 
 ```
+/**
+ * @Description: the stylesheet of
+ * @authors: hanjw (han.jingwei@fengniao.com)
+ * @date   : 2016-02-16 15:33:22
+ * @version: 1.0
+ */
 body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockq
 uote,pre,form,fieldset,legend,input,button,textarea,hr{margin:0;padding:0;}
 ul,ol{list-style:none;}
