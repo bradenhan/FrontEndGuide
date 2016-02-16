@@ -18,7 +18,7 @@ css模板，其实就是reset。
 ```
 综上所述，CSS通用的reset详见：
 
-### ** PC频道的reset **
+-  ### ** PC频道的reset **
 
 ```
 /**
