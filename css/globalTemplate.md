@@ -11,7 +11,7 @@ css模板，其实就是reset。
 
 ```
 /**
- * @Description: the stylesheet of
+ * @Description: the stylesheet of XXX
  * @authors: XXX
  * @date   : XXX
  * @version: XX
@@ -37,10 +37,10 @@ clear: both; visibility: hidden; font-size:0}
 
 ```
 /**
- * @Description: the stylesheet of
- * @authors: hanjw (han.jingwei@fengniao.com)
- * @date   :  
- * @version:  
+ * @Description: the stylesheet of XXX
+ * @authors: XXX
+ * @date   : XXX 
+ * @version: XXX 
  */
  
 /*reset*/ 
