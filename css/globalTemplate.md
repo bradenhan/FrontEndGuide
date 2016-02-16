@@ -34,3 +34,30 @@ clear: both; visibility: hidden; font-size:0}
 如无特殊情况，** 前端频道必须使用此reset **。
 
 ### ** Wap站的reset **  
+```
+/**
+ * @Description: the stylesheet of
+ * @authors: hanjw (han.jingwei@fengniao.com)
+ * @date   :  
+ * @version:  
+ */
+ 
+/*reset*/ 
+html,body,header,footer,section,div,p,figure,ul,ol,li,h1,h2,h3,h4,fieldset,legend{margin:0; padding:0; font-size: 16px;}
+html,body{height: 100%}
+body{color: #333; font: 16px/1.5 "Microsoft YaHei",Arial; -webkit-text-size-adjust: none;}
+ul,ol,li{list-style-type: none;}
+em, i{font-style: normal;}
+a, a:visited{color: #333;}
+a, ins{text-decoration: none;}
+a img{border: 0 none;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section{display: block;}
+input{font-size: 16px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+input:focus::-webkit-input-placeholder{color: rgba(0,0,0,0);}
+input::-webkit-input-placeholder{color: #999;}
+input[type="button"], input[type="text"], input[type="submit"], input[type="tel"]{ -webkit-appearance: none; -moz-
+
+appearance: none; -webkit-border-image: none; border-image: none; -webkit-border-radius: 0; border-radius: 0;}
+.clearfix:after{content: ""; display: block; height: 0; overflow: hidden; clear: both; visibility: hidden;}
+*{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+```
