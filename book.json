@@ -20,7 +20,8 @@
     },
     "plugins": [
         "github",
-        "ace"
+        "ace",
+        "addcssjs"
     ],
     "pluginsConfig": {
         "github": {
