@@ -9,6 +9,13 @@ css模板，其实就是reset。
 
 为了便于维护，我们需要加上相应注释：
 ```
+/**
+ * @Description: the stylesheet of XXX
+ * @authors: XXX
+ * @date   : XXX
+ * @version: XX
+ */
+ 
 ```
 
 ### ** PC频道的reset **
