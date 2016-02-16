@@ -19,8 +19,7 @@
         }
     },
     "plugins": [
-        "github",
-        "mystyle"
+        "github"
     ],
     "pluginsConfig": {
         "github": {
