@@ -2,7 +2,7 @@
 
 * [简介](README.md)
 * [目录结构和文件命名](directory-structure/README.md)
-* [图片](directory-picture/README.md) 
+* [图片](directory-picture/README.md)
 * [代码基本原则](basic/README.md)
 * [HTML](html/README.md)
    * [通用约定](html/general.md)
@@ -25,11 +25,10 @@
    * [通用约定](mobile/general.md)
    * [性能优化](mobile/performance.md)
    * [移动端适配](mobile/adaptation.md)
-  <!-- * [大招必读--通用模板](mobile/globalTemplate.md)-->
-* [代码存储](code-storage/README.md) 
-	* [SVN](code-storage/SVN.md) 
+* [代码存储](code-storage/README.md)
+   * [SVN](code-storage/SVN.md)
 * [兼容性和测试](compatibility-and-testing/README.md)
-* [附录](appendix/README.md) 
-	* [工具箱](appendix/tool.md)
-	* [参考](appendix/reference.md)
+* [附录](appendix/README.md)
+   * [工具箱](appendix/tool.md)
+   * [参考](appendix/reference.md)
 
