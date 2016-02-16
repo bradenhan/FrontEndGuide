@@ -26,8 +26,7 @@ css模板，其实就是reset。
  * @authors: XXX
  * @date   : XXX
  * @version: XX
- */
- 
+ */ 
  
 body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,
 td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,hr{margin:0;padding:0;}
