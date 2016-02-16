@@ -67,7 +67,8 @@ article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, s
 input{font-size: 16px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 input:focus::-webkit-input-placeholder{color: rgba(0,0,0,0);}
 input::-webkit-input-placeholder{color: #999;}
-input[type="button"], input[type="text"], input[type="submit"], input[type="tel"]{ -webkit-appearance: none; -moz-appearance: none; -webkit-border-image: none; border-image: none; -webkit-border-radius: 0; border-radius: 0;}
+input[type="button"], input[type="text"], input[type="submit"], input[type="tel"]
+{ -webkit-appearance: none; -moz-appearance: none; -webkit-border-image: none; border-image: none; -webkit-border-radius: 0; border-radius: 0;}
 .clearfix:after{content: ""; display: block; height: 0; overflow: hidden; clear: both; visibility: hidden;}
 *{-webkit-tap-highlight-color:rgba(255,0,0,0);}
 ```
