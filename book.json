@@ -20,7 +20,6 @@
     },
     "plugins": [
         "github",
-        "-addcssjs",
         "chart",
         "layout",
         "mystyle"
