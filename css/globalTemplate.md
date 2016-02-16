@@ -18,7 +18,7 @@ css模板，其实就是reset。
 ```
 综上所述，CSS通用的reset详见：
 
--  ### ** PC频道的reset **
+### ** PC频道的reset **
 
 ```
 /**
@@ -44,7 +44,7 @@ clear: both; visibility: hidden; font-size:0}
 ```
 如无特殊情况，** 前端频道必须使用此reset **。
 
--  ### ** Wap站的reset **  
+### ** Wap站的reset **  
 
 ```
 /**
