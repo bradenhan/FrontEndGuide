@@ -25,7 +25,7 @@
    * [通用约定](mobile/general.md)
    * [性能优化](mobile/performance.md)
    * [移动端适配](mobile/adaptation.md)
-   * 多少岁
+   * [多少岁](mobile/duo_shao_sui.md)
 * [代码存储](code-storage/README.md)
    * [SVN](code-storage/SVN.md)
 * [兼容性和测试](compatibility-and-testing/README.md)
