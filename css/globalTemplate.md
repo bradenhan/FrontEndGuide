@@ -12,9 +12,9 @@ css模板，其实就是reset。
 ```
 /**
  * @Description: the stylesheet of
- * @authors: hanjw (han.jingwei@fengniao.com)
- * @date   : 2016-02-16 15:33:22
- * @version: 1.0
+ * @authors: XXX
+ * @date   : XXX
+ * @version: XX
  */
  
  
