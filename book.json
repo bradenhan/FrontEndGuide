@@ -23,7 +23,8 @@
         "ace",
         "addcssjs",
         "chart",
-        "layout"
+        "layout",
+        "mystyle"
     ],
     "pluginsConfig": {
         "github": {
