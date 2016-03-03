@@ -16,7 +16,7 @@
    * [模块组织](css/structure.md)
    * [Less 规范](css/less.md)
    * [性能优化](css/performance.md)
-   * [css压缩](css/performance.md)
+   * [css压缩](css/compress.md)
    * [大招必读--通用模板](css/globalTemplate.md)
 * [JavaScript](javascript/README.md)
    * [通用约定](javascript/general.md)
