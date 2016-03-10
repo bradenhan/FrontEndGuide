@@ -27,6 +27,7 @@ CSS压缩初步采用[Grunt](http://gruntjs.com/)的CSS插件【[grunt-contrib-c
 ### CSS压缩
 
 CSS压缩初步采用[Grunt](http://gruntjs.com/)的CSS插件【[grunt-contrib-cssmin](https://www.npmjs.com/package/grunt-contrib-cssmin)】进行CSS压缩。  
+
 使用方法：
 + 安装 csslint 插件：
   - ** npm install grunt-contrib-csslint --save-dev ** 
