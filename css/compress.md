@@ -2,6 +2,7 @@
 
 CSS压缩，包含CSS语法检查和CSS压缩，由于初涉此部分，故，** 此部分暂时不支持IE7、IE6 hack **，即：请前端同学尽量不要写带```*``` 和 ```_``` 为前缀的属性 ，不过在稍后的版本中尽量会实现此功能。
 
+
 ### CSS语法检查
 
 CSS压缩初步采用[Grunt](http://gruntjs.com/)的CSS插件【[grunt-contrib-csslint](https://www.npmjs.com/package/grunt-contrib-csslint)】进行语法检查。
