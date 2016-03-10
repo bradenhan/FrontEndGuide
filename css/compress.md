@@ -44,11 +44,11 @@ CSS压缩初步采用[Grunt](http://gruntjs.com/)的CSS插件【[grunt-contrib-c
 	             files: {  
 	                 'code/dist-css/XXXX1.css': [
 	                 	'code/css/ssss1.css',
-	                 	'code/css/homePage1.css' 
+	                 	'code/css/ddd1.css' 
 	                 ],
                      'code/dist-css/XXXX2.css': [
 	                 	'code/css/ssss2.css',
-	                 	'code/css/homePage2.css' 
+	                 	'code/css/ddd2.css' 
 	                 ]
 	             }  
 	         }  
