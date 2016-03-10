@@ -10,7 +10,7 @@ CSS压缩初步采用[Grunt](http://gruntjs.com/)的CSS插件【[grunt-contrib-c
     - 
      ```
      csslint:{
-			build : ['Gruntfile.js','code/css/*.css'],
+			build : ['Gruntfile.js','code/css/*.css'], //
 			options : {
 				csslintrc : '.csslintrc'
 			}
