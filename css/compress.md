@@ -45,6 +45,10 @@ CSS压缩初步采用[Grunt](http://gruntjs.com/)的CSS插件【[grunt-contrib-c
 	                 'code/dist-css/homePage.min.css': [
 	                 	'code/css/jquery.bxslider.css',
 	                 	'code/css/homePage.css' 
+	                 ],
+                     'code/dist-css/homePage.min.css': [
+	                 	'code/css/jquery.bxslider.css',
+	                 	'code/css/homePage.css' 
 	                 ]
 	             }  
 	         }  
