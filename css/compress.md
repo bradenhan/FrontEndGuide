@@ -42,13 +42,13 @@ CSS压缩初步采用[Grunt](http://gruntjs.com/)的CSS插件【[grunt-contrib-c
 	         },  
 	         compress: {   //此部分可实现多个CSS压缩成一个的效果
 	             files: {  
-	                 'code/dist-css/homePage.min.css': [
-	                 	'code/css/jquery.bxslider.css',
-	                 	'code/css/homePage.css' 
+	                 'code/dist-css/XXXX1.css': [
+	                 	'code/css/jquery.bxslider1.css',
+	                 	'code/css/homePage1.css' 
 	                 ],
-                     'code/dist-css/homePage.min.css': [
-	                 	'code/css/jquery.bxslider.css',
-	                 	'code/css/homePage.css' 
+                     'code/dist-css/XXXX2.css': [
+	                 	'code/css/jquery.bxslider2.css',
+	                 	'code/css/homePage2.css' 
 	                 ]
 	             }  
 	         }  
