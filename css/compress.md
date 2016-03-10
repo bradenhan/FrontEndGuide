@@ -34,12 +34,22 @@ CSS压缩初步采用[Grunt](http://gruntjs.com/)的CSS插件【[grunt-contrib-c
 + 在Gruntfile.js文件里面做如下配置：
     - 
      ```
-     csslint:{
-			build : ['Gruntfile.js','code/css/*.css'], //code/css/*.css 可做适当的调整
-			options : {
-				csslintrc : '.csslintrc'
-			}
-		}
+     cssmin: {
+			options: {  
+            	shorthandCompacting: false,
+    			roundingPrecision: -1,
+    			keepSpecialComments: 0 
+	         },  
+	         compress: {   //此部分可实现多个CSS压缩成一个的效果
+	             files: {  
+	                 'code/dist-css/homePage.min.css': [
+	                 	'code/css/jquery.bxslider.css',
+	                 	'code/css/homePage.css' 
+	                 ]
+	             }  
+	         }  
+		},
+		
         ```
     - 
     ```
