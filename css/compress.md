@@ -6,7 +6,7 @@ CSS压缩，包含CSS语法检查和CSS压缩，由于初涉此部分，所以�
 
 CSS压缩初步采用[Grunt](http://gruntjs.com/)的CSS插件【[grunt-contrib-csslint](https://www.npmjs.com/package/grunt-contrib-csslint)】进行语法检查。
 
-使用方法：
+** 使用方法：**
 + 安装 csslint 插件：
   - ** npm install grunt-contrib-csslint --save-dev ** 
 + 在Gruntfile.js文件里面做如下配置：
@@ -28,7 +28,7 @@ CSS压缩初步采用[Grunt](http://gruntjs.com/)的CSS插件【[grunt-contrib-c
 
 CSS压缩初步采用[Grunt](http://gruntjs.com/)的CSS插件【[grunt-contrib-cssmin](https://www.npmjs.com/package/grunt-contrib-cssmin)】进行CSS压缩。  
 
-使用方法：
+** 使用方法：**
 + 安装 csslint 插件：
   - ** npm install grunt-contrib-csslint --save-dev ** 
 + 在Gruntfile.js文件里面做如下配置：
