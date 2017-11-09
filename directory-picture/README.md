@@ -16,7 +16,7 @@ http://test.svn.fengniao.com/frontend_svn/fengniao/common-pic/photo.jpg
 | `PNG-24` | .png  | 支持 8 位 256 级透明度。主要用于有半透明效果的图片。| 
 | `GIF` | .gif |  和 PNG-8 类似，但在多数时候文件稍大（像素图通常比 PNG-8 小），而兼容性最好。GIF 支持多帧动画，在需要动画图片时，或同样的图片文件比 PNG-8 尺寸较小时使用此格式。| 
 | `JPEG` | .jpg | 不支持透明色。用于色彩较为丰富、需要过渡自然的大幅面Banner。JPEG 是有损压缩格式，因此在输出时请选择一个最能满足设计效果而文件大小又最小的压缩率| 
-| `base64` | data:image/jpeg;base64 | H5页面用的较多 |
+| `base64` | data:image/jpeg;base64 | H5页面用的较多 [转换地址](http://tool.css-js.com/base64.html) |
 
 #### 使用 CSS3 和 IE 滤镜、空标签代替图片
 在 CSS3 和 IE 滤镜都能达到设计效果时，使用它们来代替图片。这些方式能减少网络载入时间，并易于修改。可斟酌不同的项目适当采用。

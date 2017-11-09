@@ -1,8 +1,8 @@
 {
     "title": "前端暂行规范v1.0",
     "links": {
-        "home": "https://git.gitbook.com/bradenhan/front-end.git",
-        "about": "https://git.gitbook.com/bradenhan/front-end.git",
+        "home": " ",
+        "about": " ",
         "issues": null,
         "contribute": null
     },
@@ -23,7 +23,7 @@
     ],
     "pluginsConfig": {
         "github": {
-            "url": "https://git.gitbook.com/bradenhan/front-end.git"
+            "url": " "
         }
     }
 }
