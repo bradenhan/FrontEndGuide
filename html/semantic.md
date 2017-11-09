@@ -61,3 +61,6 @@
 > 为SEO考虑，慎用  **H1**  和 **H2** 标签。 详见【SEO 和预留】 
 
 更多语义化的内容，参考 sofish 写的文章 [这样去写你的 HTML](http://wenku.baidu.com/view/0a8d3774f242336c1eb95ea9.html)。
+
+## 附录： ["浅谈web语义化"](https://github.com/Iamlars/diaries/blob/master/2016-07/semantic.md )
+

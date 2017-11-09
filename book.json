@@ -1,32 +1,29 @@
 {
-
-    "title": "前端暂行规范",
-
+    "title": "前端暂行规范v1.0",
     "links": {
         "home": "https://git.gitbook.com/bradenhan/front-end.git",
         "about": "https://git.gitbook.com/bradenhan/front-end.git",
         "issues": null,
         "contribute": null
     },
-
     "pdf": {
         "toc": true,
         "pageNumbers": false,
         "fontSize": 12,
         "paperSize": "a4",
         "margin": {
-            "right": 62,
-            "left": 62,
+            "right": 36,
+            "left": 36,
             "top": 36,
             "bottom": 36
         }
     },
-
-    "plugins": [ "github" ],
+    "plugins": [
+        "github"
+    ],
     "pluginsConfig": {
-      "github": {
-        "url": "https://git.gitbook.com/bradenhan/front-end.git"
-      }
+        "github": {
+            "url": "https://git.gitbook.com/bradenhan/front-end.git"
+        }
     }
-
 }
