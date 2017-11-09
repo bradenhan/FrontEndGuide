@@ -8,10 +8,10 @@
    
 该规范只是保证大方向一致性和最佳实践的阶段性总结，不是最后结论，它会随着时间而变化。 
  
-<!-- 此版本的第一版是根据**阿树**的 **[前端开发规范手册](http://zhibimo.com/read/Ashu/front-end-style-guide/)** 和 ** ZOL前端规范1.1 ** 修改而来，感恩他们。  
+此版本的第一版是根据**阿树**的 **[前端开发规范手册](http://zhibimo.com/read/Ashu/front-end-style-guide/)** 和 ** ZOL前端规范1.1 ** 修改而来，感恩他们。  
 
 #####Github: [仓库地址](https://github.com/Aaaaaashu/Front-End-Style-Guide)
-#####知笔墨：[手册地址](http://zhibimo.com/read/Ashu/front-end-style-guide/) -->
+#####知笔墨：[手册地址](http://zhibimo.com/read/Ashu/front-end-style-guide/)
 
 
 ## 目录
