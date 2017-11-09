@@ -1,6 +1,6 @@
-# 前端开发规范 v1.0
+# 前端开发规范
 
-所谓规范，乃是需要大家遵守的标准。制定规范的目的不是为了约束大家，恰恰相反，是为了方便大家快速的解决问题。
+所谓规范，乃是需要大家遵守的标准。制定规范的目的是为了方便大家快速的解决问题，提高工作效率。
 
 此规范主要目标：**代码一致性**和**最佳实践**。通过代码风格的一致性，降低维护代码的成本以及提高多人协作的效率。同时遵守最佳实践，确保页面性能得到最佳优化和高效的代码。
 
@@ -10,11 +10,11 @@
  
 此版本的第一版是根据**阿树**的 **[前端开发规范手册](http://zhibimo.com/read/Ashu/front-end-style-guide/)** 和 ** ZOL前端规范1.1 ** 修改而来，感恩他们。  
 
-<!--#####Github: [仓库地址](https://github.com/Aaaaaashu/Front-End-Style-Guide)
-#####知笔墨：[手册地址](http://zhibimo.com/read/Ashu/front-end-style-guide/)  -->
+#####Github: [仓库地址](https://github.com/Aaaaaashu/Front-End-Style-Guide)
+#####知笔墨：[手册地址](http://zhibimo.com/read/Ashu/front-end-style-guide/)
 
 
-<!--## 目录
+## 目录
 * [Introduction](https://bradenhan.gitbooks.io/front-end/content/index.html)
 * [目录结构和文件命名](https://bradenhan.gitbooks.io/front-end/content/directory-structure/index.html) 
 * [图片](https://bradenhan.gitbooks.io/front-end/content/directory-picture/index.html)
@@ -38,5 +38,5 @@
 * [工具箱](https://bradenhan.gitbooks.io/front-end/content/tool/index.html)
 * [参考](https://bradenhan.gitbooks.io/front-end/content/reference/index.html)
 
-<!-- ![](https://raw.githubusercontent.com/Aaaaaashu/Front-End-Style-Guide/master/img/husky.png)-->
+ ![](https://raw.githubusercontent.com/Aaaaaashu/Front-End-Style-Guide/master/img/husky.png)
  
