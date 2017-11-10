@@ -25,14 +25,14 @@
 
 #####标签使用补录 （大招）：
 除了标签应具有语义化特征外，还应该在使用上符合以下规范：
-* ** 空标签**： 尽量不要有空标签，除非为了网页的特殊效果需要或为了兼容低版本浏览器而不得不这样定义（例如清除浮动、半透明背景等）。
+* 空标签： 尽量不要有空标签，除非为了网页的特殊效果需要或为了兼容低版本浏览器而不得不这样定义（例如清除浮动、半透明背景等）。
 * ** A **： 必须为A添加 href 属性，否则就不应该使用A标签。
-* ** IMG：** 必须为<img>标签添加 alt 属性。 除非有脚本希望计算图片原始大小，必须为IMG设定高度和宽度（有时可仅设置其中一项）以防止抖动。可以使用 CSS、行内 style、 width/height 属性来设置。
+* ** IMG：** 必须为`<img>`标签添加 alt 属性。 除非有脚本希望计算图片原始大小，必须为IMG设定高度和宽度（有时可仅设置其中一项）以防止抖动。可以使用 CSS、行内 style、 width/height 属性来设置。
 * ** DL DD DT ** ： DL中的DT和DD不需要一一对应，但多数情况下应在它们一一对应时使用，否则可能存在滥用。
 * ** FORM** ： 表单对象应包含在FORM标签内，除非页面必须依赖 AJAX 来实现。但是请不要为FORM 定义样式，并且FORM标签不得参与页面布局。
 * ** LABEL **： 当表单的输入框、单选框、复选框、多行文本框、下拉选项等有标签文字时，必须将这些文字用LABEL标签包含，并使用 FOR 属性进行连接。
 * ** TABLE** ： 当内容是表格形式时，应果断使用table。
-可以使用 table 的 border-spacing/ border-collapse 样式、单元格的 padding 样式来取代表格的 cellspacing 和 cellpadding 属性，因此<table>上应该只能具有 id、class、 summary 和自定义的属性。
+可以使用 table 的 border-spacing/ border-collapse 样式、单元格的 padding 样式来取代表格的 cellspacing 和 cellpadding 属性，因此`<table>`上应该只能具有 id、class、 summary 和自定义的属性。
 建议为表格添加 summary 属性作为表格的说明，它可被屏幕阅读器识别，也可作为模块识别标志。
 完整的table标签如下：
       <table summary="表格的说明">
@@ -146,9 +146,7 @@ HTML5 规范中 `disabled`、`checked`、`selected` 等属性不用设置值。
 HTML 字符： 特殊字符应尽量使用 HTML 定义的字符而不是直接使用文字；使用HTML 字符时，可以使用十进制编码格式或已有命名的实体，推荐使用前者。完整的HTML 字符集请参考附录：[常用 HTML 字符](http://www.w3school.com.cn/tags/html_ref_entities.html)。
 
 ### HTML 模板 （大招）
-* uft-8模板
-
-
+* uft-8模板 
 	<!DOCTYPE html>
 	<html>
 		<head>
@@ -163,9 +161,7 @@ HTML 字符： 特殊字符应尽量使用 HTML 定义的字符而不是直接�
 		</body>
 	</html> 
 	
-* gbk模板
-
-
+* gbk模板 
 	<!DOCTYPE html>
 	<html>
 		<head>
