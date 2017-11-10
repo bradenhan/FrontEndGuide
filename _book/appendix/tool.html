@@ -1,0 +1,987 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>工具箱 · 前端暂行规范v1.1</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="reference.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../directory-structure/">
+            
+                <a href="../directory-structure/">
+            
+                    
+                    目录结构和文件命名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../directory-picture/">
+            
+                <a href="../directory-picture/">
+            
+                    
+                    图片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../basic/">
+            
+                <a href="../basic/">
+            
+                    
+                    代码基本原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../html/">
+            
+                <a href="../html/">
+            
+                    
+                    HTML
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../html/general.html">
+            
+                <a href="../html/general.html">
+            
+                    
+                    通用约定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../html/semantic.html">
+            
+                <a href="../html/semantic.html">
+            
+                    
+                    语义化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../html/structure.html">
+            
+                <a href="../html/structure.html">
+            
+                    
+                    模块化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../html/head.html">
+            
+                <a href="../html/head.html">
+            
+                    
+                    HEAD
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../html/globalTemplate.html">
+            
+                <a href="../html/globalTemplate.html">
+            
+                    
+                    大招必读--通用模板
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../css/">
+            
+                <a href="../css/">
+            
+                    
+                    CSS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../css/general.html">
+            
+                <a href="../css/general.html">
+            
+                    
+                    通用约定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../css/typography.html">
+            
+                <a href="../css/typography.html">
+            
+                    
+                    字体排印
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../css/structure.html">
+            
+                <a href="../css/structure.html">
+            
+                    
+                    模块组织
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../css/less.html">
+            
+                <a href="../css/less.html">
+            
+                    
+                    Less 规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../css/performance.html">
+            
+                <a href="../css/performance.html">
+            
+                    
+                    性能优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../css/compress.html">
+            
+                <a href="../css/compress.html">
+            
+                    
+                    css压缩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../css/globalTemplate.html">
+            
+                <a href="../css/globalTemplate.html">
+            
+                    
+                    大招必读--通用模板
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../javascript/">
+            
+                <a href="../javascript/">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../javascript/general.html">
+            
+                <a href="../javascript/general.html">
+            
+                    
+                    通用约定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../javascript/jquery.html">
+            
+                <a href="../javascript/jquery.html">
+            
+                    
+                    jQuery 规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../javascript/performance.html">
+            
+                <a href="../javascript/performance.html">
+            
+                    
+                    性能优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../mobile/">
+            
+                <a href="../mobile/">
+            
+                    
+                    H5 + 移动端
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../mobile/general.html">
+            
+                <a href="../mobile/general.html">
+            
+                    
+                    通用约定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../mobile/performance.html">
+            
+                <a href="../mobile/performance.html">
+            
+                    
+                    性能优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../mobile/adaptation.html">
+            
+                <a href="../mobile/adaptation.html">
+            
+                    
+                    移动端适配
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../code-storage/">
+            
+                <a href="../code-storage/">
+            
+                    
+                    代码存储
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../code-storage/SVN.html">
+            
+                <a href="../code-storage/SVN.html">
+            
+                    
+                    SVN
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../compatibility-and-testing/">
+            
+                <a href="../compatibility-and-testing/">
+            
+                    
+                    兼容性和测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    附录
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.11.1" data-path="tool.html">
+            
+                <a href="tool.html">
+            
+                    
+                    工具箱
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="reference.html">
+            
+                <a href="reference.html">
+            
+                    
+                    参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >工具箱</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5DE5;&#x5177;&#x7BB1;">&#x5DE5;&#x5177;&#x7BB1;</h1>
+<p><a href="http://htmlelement.info/" target="_blank">HTMLelement.info</a></p>
+<p><a href="http://caniuse.com/" target="_blank">Can I use</a></p>
+<p><a href="http://howtocenterincss.com/" target="_blank">&#x5782;&#x76F4;&#x5C45;&#x4E2D;</a></p>
+<p><a href="http://nthmaster.com/" target="_blank">Mastering the :nth-child</a></p>
+<p><a href="https://jex.im/regulex" target="_blank">Regulex</a></p>
+<p><a href="http://youmightnotneedjquery.com/" target="_blank">YOU MIGHT NOT NEED JQUERY</a></p>
+<p><a href="http://labs.qianduan.net/css-selector/" title="CSS&#x9009;&#x62E9;&#x5668;&#x7684;&#x6D4F;&#x89C8;&#x5668;&#x652F;&#x6301;" target="_blank">CSS&#x9009;&#x62E9;&#x5668;&#x7684;&#x6D4F;&#x89C8;&#x5668;&#x652F;&#x6301;</a></p>
+<p>&#x5F85;&#x7EED;...</p>
+<hr>
+<p>&#x5927;&#x62DB;&#xFF1A;</p>
+<ul>
+<li>CSS &#x547D;&#x540D;&#x4E66;&#x5199;&#x987A;&#x5E8F;,<a href="https://www.mozilla.org/css/base/content.css" target="_blank">&#x8BE6;&#x60C5;&#x70B9;&#x51FB;</a><ul>
+<li>display</li>
+<li>list-style</li>
+<li>position</li>
+<li>float</li>
+<li>clear</li>
+<li>width</li>
+<li>height</li>
+<li>margin</li>
+<li>padding</li>
+<li>border</li>
+<li>background</li>
+<li>color</li>
+<li>font</li>
+<li>text-decoration</li>
+<li>text-align</li>
+<li>vertical-align</li>
+<li>white-space</li>
+<li>other text</li>
+<li>content</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>CSS&#x547D;&#x540D;&#x89C4;&#x5219;</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>&#x573A;&#x666F;</th>
+<th>&#x547D;&#x540D;</th>
+<th>&#x573A;&#x666F;</th>
+<th>&#x547D;&#x540D;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x5916;&#x5C42;&#x5BB9;&#x5668;</td>
+<td>wrap wrapper container</td>
+<td>&#x540A;&#x9876;</td>
+<td>top-nav top-bar topbar</td>
+</tr>
+<tr>
+<td>&#x9875;&#x5934;</td>
+<td>header</td>
+<td>&#x9875;&#x5C3E;</td>
+<td>footer</td>
+</tr>
+<tr>
+<td>&#x83DC;&#x5355;</td>
+<td>menu main-menu sub-menu side-nav side-menu</td>
+<td>&#x641C;&#x7D22;</td>
+<td>search search-input search-btn search-results query</td>
+</tr>
+<tr>
+<td>&#x9875;&#x9762;&#x4E3B;&#x4F53;</td>
+<td>content main article</td>
+<td>&#x4FA7;&#x8FB9;&#x680F;</td>
+<td>side  sidebar aside</td>
+</tr>
+<tr>
+<td>LOGO</td>
+<td>logo</td>
+<td>&#x53CB;&#x60C5;&#x94FE;&#x63A5;</td>
+<td>friendlink</td>
+</tr>
+<tr>
+<td>&#x5BFC;&#x822A;</td>
+<td>nav main-nav sub-nav</td>
+<td>&#x9762;&#x5305;&#x5C51;</td>
+<td>breadcrumb curmb</td>
+</tr>
+<tr>
+<td>&#x680F;&#x76EE;&#x6A21;&#x5757;</td>
+<td>section column module mod</td>
+<td>&#x5217;&#x8868;</td>
+<td>list  news-list pic-list text-list</td>
+</tr>
+<tr>
+<td>&#x54C1;&#x724C;&#x5546;&#x6807;</td>
+<td>brand branding branding-logo</td>
+<td>&#x4EA7;&#x54C1;</td>
+<td>products products-price products-desc products-review</td>
+</tr>
+<tr>
+<td>&#x6CE8;&#x518C;</td>
+<td>reg register register-box</td>
+<td>&#x9009;&#x9879;&#x5361;</td>
+<td>tabs tab news-tab</td>
+</tr>
+<tr>
+<td>&#x8BC4;&#x8BBA;</td>
+<td>review comments</td>
+<td>&#x65B0;&#x54C1;</td>
+<td>new-release new-products</td>
+</tr>
+<tr>
+<td>&#x751F;&#x4EA7;&#x5546;</td>
+<td>publisher provider</td>
+<td>&#x7126;&#x70B9;&#x56FE;</td>
+<td>focus gallery</td>
+</tr>
+<tr>
+<td>&#x6392;&#x884C;&#x699C;</td>
+<td>rank rank-list</td>
+<td>&#x65B0;&#x95FB;</td>
+<td>news info</td>
+</tr>
+<tr>
+<td>&#x56FE;&#x6807;</td>
+<td>icon ico</td>
+<td>&#x5934;&#x6761;</td>
+<td>top-news headline-news</td>
+</tr>
+<tr>
+<td>&#x63D0;&#x793A;&#x6280;&#x5DE7;</td>
+<td>tips note</td>
+<td>&#x6807;&#x9898;</td>
+<td>column-title mod-title</td>
+</tr>
+<tr>
+<td>&#x767B;&#x5F55;&#x6761;</td>
+<td>loginbar</td>
+<td>&#x6307;&#x5357;</td>
+<td>guide</td>
+</tr>
+<tr>
+<td>&#x6458;&#x8981;</td>
+<td>summary</td>
+<td>&#x6295;&#x7968;</td>
+<td>vote</td>
+</tr>
+<tr>
+<td>&#x72B6;&#x6001;</td>
+<td>status</td>
+<td>&#x6309;&#x94AE;</td>
+<td>btn</td>
+</tr>
+<tr>
+<td>&#x5E38;&#x89C1;&#x95EE;&#x9898;</td>
+<td>faqs</td>
+<td>&#x70ED;&#x70B9;</td>
+<td>hot</td>
+</tr>
+<tr>
+<td>&#x5F53;&#x524D;&#x7684;</td>
+<td>cur current now</td>
+<td>&#x6807;&#x7B7E;</td>
+<td>tags  tag</td>
+</tr>
+<tr>
+<td>&#x5E7F;&#x544A;</td>
+<td>banner ad-space</td>
+<td>&#x63D0;&#x793A;&#x4FE1;&#x606F;</td>
+<td>message msg</td>
+</tr>
+<tr>
+<td>&#x5408;&#x4F5C;&#x4F19;&#x4F34;</td>
+<td>partner</td>
+<td>&#x94FE;&#x63A5;</td>
+<td>link</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>IE CSS Hack</p>
+<ul>
+<li><p>&#x5185;&#x90E8; Hack<br><img src="https://bradenhan.gitbooks.io/front-end/content/img/CSS-hack1.png" alt="">  </p>
+</li>
+<li><p>&#x9009;&#x62E9;&#x5668; Hack<br><img src="https://bradenhan.gitbooks.io/front-end/content/img/CSS-hack2.png" alt="">
+IE10 Hack &#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x4E00;&#x4E9B; CSS3 &#x6765;&#x5B9E;&#x73B0;&#xFF0C;&#x4F8B;&#x5982; transform&#x3002;</p>
+</li>
+</ul>
+</li>
+<li><p>&#x5E38;&#x7528; CSS &#x6837;&#x5F0F; </p>
+<ol>
+<li><p>&#x7EDD;&#x5BF9;&#x5B9A;&#x4F4D;&#x5C45;&#x4E2D;&#xFF08;&#x9700;&#x56FA;&#x5B9A;&#x5C3A;&#x5BF8;&#xFF09;&#xFF1A;margin-top &#x548C; margin-left &#x5206;&#x522B;&#x662F;&#x9AD8;&#x5BBD;&#x7684;&#x4E00;&#x534A;</p>
+<pre><code> position: absolute; width: 280px; height: 200px;left: 50%; top: 50%; margin: -100px 0 0 -140px
+</code></pre></li>
+<li><p>&#x4EFB;&#x610F;&#x5C3A;&#x5BF8;&#x56FE;&#x7247;&#x5782;&#x76F4;&#x5C45;&#x4E2D;&#xFF1A;font-size &#x4E3A;&#x5BB9;&#x5668;&#x9AD8;&#x5EA6;*0.873 </p>
+<pre><code>a {display: table-cell; width:150px; height:100px; vertical-align: middle; *display: block; *font-size:87px;*font-family: Arial;}
+img { vertical-align: middle;}
+</code></pre></li>
+<li><p>&#x900F;&#x660E;&#x5EA6; </p>
+<pre><code>opacity: 0.5;filter: alpha(opacity=50);
+</code></pre></li>
+<li>&#x6C34;&#x5E73;&#x65B9;&#x5411;&#x7684;&#x7EBF;&#x6027;&#x6E10;&#x53D8; <pre><code>-webkit-linear-gradient(left, #0080ff,#004080); 
+-moz-linear-gradient(left, #0080ff,#004080); 
+-o-linear-gradient(left, #0080ff,#004080); 
+linear-gradient(left, #0080ff,#004080); 
+filter: progid: DXImageTransform.Microsoft.gradient(startcolorstr=#ff0080ff,endcolorstr=#ff004080,gradientType=1)
+</code></pre></li>
+<li><p>&#x5782;&#x76F4;&#x65B9;&#x5411;&#x7684;&#x7EBF;&#x6027;&#x6E10;&#x53D8;</p>
+<pre><code>-webkit-linear-gradient(#0080ff,#004080); 
+-moz-linear-gradient(#0080ff,#004080); 
+-o-linear-gradient(#0080ff,#004080); 
+linear-gradient(#0080ff,#004080); 
+filter: progid: DXImageTransform.Microsoft.gradient(startcolorstr=#ff0080ff,endcolorstr=#ff004080,gradientType=0)
+</code></pre></li>
+<li>Alpha &#x900F;&#x660E;&#x80CC;&#x666F;&#x8272;<pre><code>background: rgba(0,0,0,.5); 
+filter: progid: DXImageTransform.Microsoft.gradient(startcolorstr=#8000 0000,endcolorstr=#80000000,gradientType=1); 
+&#x9700;&#x8981;&#x6DFB;&#x52A0; IE9 hack &#x4EE5;&#x6E05;&#x9664; filter &#x8BBE;&#x7F6E;&#xFF1A; 
+:root selector { filter: none; }
+</code></pre></li>
+<li><p>&#x5229;&#x7528;&#x8FB9;&#x6846;&#x7ED8;&#x5236;&#x4E09;&#x89D2;&#x5F62;</p>
+<pre><code>width: 0; height: 0; overflow: hidden; border: 10px solid #fff; border-left:10px solid #f00; font: 0/0 arial;
+</code></pre></li>
+<li>&#x4F7F;&#x7528; IE &#x6EE4;&#x955C;&#x7684;&#x76D2;&#x9634;&#x5F71;<pre><code>&#x4F7F;&#x7528;&#x4E86;&#x4E00;&#x4E2A;&#x7C7B;&#x540D;&#x4E3A; shadow &#x7684;&#x7A7A;&#x6807;&#x7B7E;&#x6765;&#x6E32;&#x67D3;&#x9634;&#x5F71;&#xFF0C;&#x800C;&#x4F7F;&#x7528;&#x4E00;&#x4E2A;&#x7C7B;&#x540D;&#x4E3A; container &#x7684;&#x6807;&#x7B7E;&#x4F5C;&#x4E3A;&#x5185;&#x5BB9;&#x5BB9;&#x5668;&#x3002;&#x5728;&#x652F;&#x6301; CSS3 &#x76D2;&#x9634;&#x5F71;&#x7684;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#xFF0C;&#x4F7F;&#x7528;background: rgba(0,0,0,0)&#x900F;&#x660E; RGBA &#x989C;&#x8272;&#x6765;&#x9690;&#x85CF;&#x6A21;&#x62DF;&#x7684;&#x9634;&#x5F71;&#x3002;
+HTML&#xFF1A; 
+   &lt;div&gt; 
+       &lt;div class=&#x201D;shadow&#x201D;&gt;&lt;/div&gt; 
+           &lt;div class=&#x201D;container&#x201D;&gt; 
+       &lt;/div&gt; 
+   &lt;/div&gt; 
+CSS&#xFF1A; 
+.box {position: relative; width: 400px; height: 300px;} .container {position: absolute; width: 100%; height: 100%; left: 0; top: 0; background: #fff; border: 1px solid #000;} .shadow {position: absolute; width: 100%; height: 100%; left: 3px; top: 3px; background: #000; background: rgba(255,0,0,0); filter: progid: DXImageTransform.Microsoft.blur(makeshadow=&quot;1&quot;,pixelrad ius=2,shadowopacity=0.35);}
+</code></pre></li>
+<li>&#x7528;&#x4E8E; IE &#x6EE4;&#x955C;&#x7684;#AARRGGBB &#x989C;&#x8272;&#x7684;&#x900F;&#x660E;&#x5EA6;&#x901F;&#x67E5;&#x8868;</li>
+</ol>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>DEC</th>
+<th>0.05</th>
+<th>0.1</th>
+<th>0.15</th>
+<th>0.2</th>
+<th>0.25</th>
+<th>0.3</th>
+<th>0.35</th>
+<th>0.4</th>
+<th>0.45</th>
+<th>0.5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HEX</td>
+<td>0D</td>
+<td>1A</td>
+<td>26</td>
+<td>33</td>
+<td>40</td>
+<td>4D</td>
+<td>59</td>
+<td>66</td>
+<td>73</td>
+<td>7F </td>
+</tr>
+<tr>
+<td>DEC</td>
+<td>0.55</td>
+<td>0.6</td>
+<td>0.65</td>
+<td>0.7</td>
+<td>0.75</td>
+<td>0.8</td>
+<td>0.85</td>
+<td>0.9</td>
+<td>0.95</td>
+<td>1</td>
+</tr>
+<tr>
+<td>HEX</td>
+<td>8C</td>
+<td>99</td>
+<td>A6</td>
+<td>B3</td>
+<td>BF</td>
+<td>CC</td>
+<td>D9</td>
+<td>E6</td>
+<td>F2</td>
+<td>FF</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>&#x5E38;&#x7528; CSS3 &#x6837;&#x5F0F;(webkit)</p>
+<ol>
+<li>&#x6E10;&#x53D8;&#xFF08;&#x91C7;&#x7528;&#x517C;&#x5BB9;&#x8001;&#x7248;&#x672C; Chrome/Safari &#x7684;&#x683C;&#x5F0F;&#xFF09; <pre><code>-webkit-gradient(linear, 0 0, 0 100%, from(#9be), to(#369)); 
+-webkit-gradient(linear, 0 0, 100% 0, from(#9be), to(#369)); 
+-webkit-gradient(linear, 0 0, 0 100%, from(#9be), to(#369), color-stop(0.5,#69b), color-stop(0.5,#69b));
+</code></pre></li>
+<li>&#x76D2;&#x9634;&#x5F71;&#xFF08;Android 4.0 &#x65F6;&#x4E0D;&#x80FD;&#x6709;-webkit-&#x524D;&#x7F00;&#xFF0C;&#x800C; 4.0 &#x4EE5;&#x4E0B;&#x5FC5;&#x987B;&#x6709;&#xFF09; <pre><code>-webkit-box-shadow: 1px 1px 3px #000;  box-shadow: 1px 1px 3px #000&#xFF1B;
+-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.4) inset;  box-shadow: 0 2px 4px rgba(0,0,0,0.4) inset&#xFF1B;
+</code></pre></li>
+<li>&#x6587;&#x5B57;&#x9634;&#x5F71;&#xFF08;&#x4E0D;&#x80FD;&#x6709;-webkit-&#x524D;&#x7F00;&#xFF09; <pre><code>text-shadow: 1px 1px 3px #000
+</code></pre></li>
+<li>&#x5706;&#x89D2;&#xFF08;Android 4.0 &#x65F6;&#x4E0D;&#x80FD;&#x6709;-webkit-&#x524D;&#x7F00;&#xFF0C;&#x800C; 4.0 &#x4EE5;&#x4E0B;&#x5FC5;&#x987B;&#x6709;&#xFF09; <pre><code>-webkit-border-radius: 5px;  border-radius: 5px 
+-webkit-border-bottom-left-radius: 5px;  border-bottom-left-radius: 5px
+</code></pre></li>
+<li>&#x56FE;&#x5F62;&#x8FB9;&#x6846; <pre><code>-webkit-border-image: url(button.png) 0 5 0 5&#xFF1B;
+</code></pre></li>
+<li>&#x53D8;&#x5F62;&#x548C;&#x65CB;&#x8F6C; <pre><code>-webkit-transform: rotate(90deg) skew(30deg, 60deg)
+</code></pre></li>
+</ol>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 附录">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="reference.html" class="navigation navigation-next " aria-label="Next page: 参考">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"工具箱","level":"1.11.1","depth":2,"next":{"title":"参考","level":"1.11.2","depth":2,"path":"appendix/reference.md","ref":"appendix/reference.md","articles":[]},"previous":{"title":"附录","level":"1.11","depth":1,"path":"appendix/README.md","ref":"appendix/README.md","articles":[{"title":"工具箱","level":"1.11.1","depth":2,"path":"appendix/tool.md","ref":"appendix/tool.md","articles":[]},{"title":"参考","level":"1.11.2","depth":2,"path":"appendix/reference.md","ref":"appendix/reference.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["github"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":" "},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":false,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":36,"left":36,"top":36,"bottom":36},"toc":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"前端暂行规范v1.1","links":{"home":"","about":"","issues":null,"contribute":null},"gitbook":"*"},"file":{"path":"appendix/tool.md","mtime":"2017-11-09T09:32:10.260Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-10T06:52:29.297Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

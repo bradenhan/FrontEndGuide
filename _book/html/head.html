@@ -1,0 +1,833 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>HEAD · 前端暂行规范v1.1</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="globalTemplate.html" />
+    
+    
+    <link rel="prev" href="structure.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../directory-structure/">
+            
+                <a href="../directory-structure/">
+            
+                    
+                    目录结构和文件命名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../directory-picture/">
+            
+                <a href="../directory-picture/">
+            
+                    
+                    图片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../basic/">
+            
+                <a href="../basic/">
+            
+                    
+                    代码基本原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    HTML
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="general.html">
+            
+                <a href="general.html">
+            
+                    
+                    通用约定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="semantic.html">
+            
+                <a href="semantic.html">
+            
+                    
+                    语义化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="structure.html">
+            
+                <a href="structure.html">
+            
+                    
+                    模块化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.4" data-path="head.html">
+            
+                <a href="head.html">
+            
+                    
+                    HEAD
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="globalTemplate.html">
+            
+                <a href="globalTemplate.html">
+            
+                    
+                    大招必读--通用模板
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../css/">
+            
+                <a href="../css/">
+            
+                    
+                    CSS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../css/general.html">
+            
+                <a href="../css/general.html">
+            
+                    
+                    通用约定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../css/typography.html">
+            
+                <a href="../css/typography.html">
+            
+                    
+                    字体排印
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../css/structure.html">
+            
+                <a href="../css/structure.html">
+            
+                    
+                    模块组织
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../css/less.html">
+            
+                <a href="../css/less.html">
+            
+                    
+                    Less 规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../css/performance.html">
+            
+                <a href="../css/performance.html">
+            
+                    
+                    性能优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../css/compress.html">
+            
+                <a href="../css/compress.html">
+            
+                    
+                    css压缩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../css/globalTemplate.html">
+            
+                <a href="../css/globalTemplate.html">
+            
+                    
+                    大招必读--通用模板
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../javascript/">
+            
+                <a href="../javascript/">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../javascript/general.html">
+            
+                <a href="../javascript/general.html">
+            
+                    
+                    通用约定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../javascript/jquery.html">
+            
+                <a href="../javascript/jquery.html">
+            
+                    
+                    jQuery 规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../javascript/performance.html">
+            
+                <a href="../javascript/performance.html">
+            
+                    
+                    性能优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../mobile/">
+            
+                <a href="../mobile/">
+            
+                    
+                    H5 + 移动端
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../mobile/general.html">
+            
+                <a href="../mobile/general.html">
+            
+                    
+                    通用约定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../mobile/performance.html">
+            
+                <a href="../mobile/performance.html">
+            
+                    
+                    性能优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../mobile/adaptation.html">
+            
+                <a href="../mobile/adaptation.html">
+            
+                    
+                    移动端适配
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../code-storage/">
+            
+                <a href="../code-storage/">
+            
+                    
+                    代码存储
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../code-storage/SVN.html">
+            
+                <a href="../code-storage/SVN.html">
+            
+                    
+                    SVN
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../compatibility-and-testing/">
+            
+                <a href="../compatibility-and-testing/">
+            
+                    
+                    兼容性和测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../appendix/">
+            
+                <a href="../appendix/">
+            
+                    
+                    附录
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../appendix/tool.html">
+            
+                <a href="../appendix/tool.html">
+            
+                    
+                    工具箱
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="../appendix/reference.html">
+            
+                <a href="../appendix/reference.html">
+            
+                    
+                    参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >HEAD</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="head">HEAD</h1>
+<h4 id="&#x6587;&#x6863;&#x7C7B;&#x578B;">&#x6587;&#x6863;&#x7C7B;&#x578B;</h4>
+<p>&#x4E3A;&#x6BCF;&#x4E2A; HTML &#x9875;&#x9762;&#x7684;&#x7B2C;&#x4E00;&#x884C;&#x6DFB;&#x52A0;&#x6807;&#x51C6;&#x6A21;&#x5F0F;&#xFF08;standard mode&#xFF09;&#x7684;HTML5&#x58F0;&#x660E;&#xFF0C; &#x8FD9;&#x6837;&#x80FD;&#x591F;&#x786E;&#x4FDD;&#x5728;&#x6BCF;&#x4E2A;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x62E5;&#x6709;&#x4E00;&#x81F4;&#x7684;&#x8868;&#x73B0;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+</code></pre>
+<h4 id="&#x8BED;&#x8A00;&#x5C5E;&#x6027;-&#x914C;&#x60C5;&#x91C7;&#x7528;">&#x8BED;&#x8A00;&#x5C5E;&#x6027; (&#x914C;&#x60C5;&#x91C7;&#x7528;)</h4>
+<p>&#x4E3A;&#x4EC0;&#x4E48;&#x4F7F;&#x7528; lang=&quot;zh-cmn-Hans&quot; &#x800C;&#x4E0D;&#x662F;&#x6211;&#x4EEC;&#x901A;&#x5E38;&#x5199;&#x7684; lang=&quot;zh-CN&quot; &#x5462;? &#x8BF7;&#x53C2;&#x8003;&#x77E5;&#x4E4E;&#x4E0A;&#x7684;&#x8BA8;&#x8BBA;: <a href="http://www.zhihu.com/question/20797118" target="_blank">&#x7F51;&#x9875;&#x5934;&#x90E8;&#x7684;&#x58F0;&#x660E;&#x5E94;&#x8BE5;&#x662F;&#x7528; lang=&quot;zh&quot; &#x8FD8;&#x662F; lang=&quot;zh-cn&quot;&#xFF1F;</a></p>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!-- &#x4E2D;&#x6587; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">&quot;zh-Hans&quot;</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!-- &#x7B80;&#x4F53;&#x4E2D;&#x6587; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">&quot;zh-cmn-Hans&quot;</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!-- &#x7E41;&#x4F53;&#x4E2D;&#x6587; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">&quot;zh-cmn-Hant&quot;</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!-- English --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">&quot;en&quot;</span>&gt;</span>
+</code></pre>
+<h4 id="meta&#x6807;&#x7B7E;">meta&#x6807;&#x7B7E;</h4>
+<p><meta> &#x5143;&#x7D20;&#x53EF;&#x63D0;&#x4F9B;&#x6709;&#x5173;&#x9875;&#x9762;&#x7684;&#x5143;&#x4FE1;&#x606F;&#xFF08;meta-information&#xFF09;&#xFF0C;&#x6BD4;&#x5982;&#x9488;&#x5BF9;&#x641C;&#x7D22;&#x5F15;&#x64CE;&#x548C;&#x66F4;&#x65B0;&#x9891;&#x5EA6;&#x7684;&#x63CF;&#x8FF0;&#x548C;&#x5173;&#x952E;&#x8BCD;&#x3002;</p>
+<p><meta> &#x6807;&#x7B7E;&#x4F4D;&#x4E8E;&#x6587;&#x6863;&#x7684;&#x5934;&#x90E8;&#xFF0C;&#x4E0D;&#x5305;&#x542B;&#x4EFB;&#x4F55;&#x5185;&#x5BB9;&#x3002;<meta> &#x6807;&#x7B7E;&#x7684;&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x4E86;&#x4E0E;&#x6587;&#x6863;&#x76F8;&#x5173;&#x8054;&#x7684;&#x540D;&#x79F0;/&#x503C;&#x5BF9;&#x3002;
+&#x8BE6;&#x7EC6;&#x53EF;&#x67E5;&#x770B;<a href="http://www.w3school.com.cn/tags/tag_meta.asp" title="HTML &lt;meta&gt; &#x6807;&#x7B7E;" target="_blank">HTML META &#x6807;&#x7B7E;</a></p>
+<p>&#x5E38;&#x7528;&#x7684;meta&#x6807;&#x7B7E;&#x5982;&#x4E0B;,<a href="http://fex.baidu.com/blog/2014/10/html-head-tags/" title="&#x767E;&#x5EA6;FEX HTML head &#x5934;&#x6807;&#x7B7E;" target="_blank">&#x8BE6;&#x60C5;&#x53EF;&#x67E5;&#x770B;</a>&#xFF1A;</p>
+<pre><code>&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;renderer&quot; content=&quot;webkit&quot;&gt;
+&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;
+&lt;meta name=&quot;keywords&quot; content=&quot;your keywords&quot;&gt;
+&lt;meta name=&quot;description&quot; content=&quot;your description&quot;&gt; 
+
+&#x4EE5;&#x4E0B;&#x662F;&#x79FB;&#x52A8;&#x7AEF;&#x7528;&#x7684;&#x6BD4;&#x8F83;&#x591A;&#x7684;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, user-scalable=no&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black&quot; /&gt;
+&lt;meta name=&quot;format-detection&quot;content=&quot;telephone=no, email=no&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, user-scalable=no&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-capable&quot; content=&quot;yes&quot; /&gt;&lt;!-- &#x5220;&#x9664;&#x82F9;&#x679C;&#x9ED8;&#x8BA4;&#x7684;&#x5DE5;&#x5177;&#x680F;&#x548C;&#x83DC;&#x5355;&#x680F; --&gt;
+&lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content=&quot;black&quot; /&gt;&lt;!-- &#x8BBE;&#x7F6E;&#x82F9;&#x679C;&#x5DE5;&#x5177;&#x680F;&#x989C;&#x8272; --&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telphone=no, email=no&quot; /&gt;&lt;!-- &#x5FFD;&#x7565;&#x9875;&#x9762;&#x4E2D;&#x7684;&#x6570;&#x5B57;&#x8BC6;&#x522B;&#x4E3A;&#x7535;&#x8BDD;&#xFF0C;&#x5FFD;&#x7565;email&#x8BC6;&#x522B; --&gt;
+&lt;!-- &#x542F;&#x7528;360&#x6D4F;&#x89C8;&#x5668;&#x7684;&#x6781;&#x901F;&#x6A21;&#x5F0F;(webkit) --&gt; 
+&lt;!-- &#x9488;&#x5BF9;&#x624B;&#x6301;&#x8BBE;&#x5907;&#x4F18;&#x5316;&#xFF0C;&#x4E3B;&#x8981;&#x662F;&#x9488;&#x5BF9;&#x4E00;&#x4E9B;&#x8001;&#x7684;&#x4E0D;&#x8BC6;&#x522B;viewport&#x7684;&#x6D4F;&#x89C8;&#x5668;&#xFF0C;&#x6BD4;&#x5982;&#x9ED1;&#x8393; --&gt;
+&lt;meta name=&quot;HandheldFriendly&quot; content=&quot;true&quot;&gt;
+&lt;!-- &#x5FAE;&#x8F6F;&#x7684;&#x8001;&#x5F0F;&#x6D4F;&#x89C8;&#x5668; --&gt;
+&lt;meta name=&quot;MobileOptimized&quot; content=&quot;320&quot;&gt;
+&lt;!-- uc&#x5F3A;&#x5236;&#x7AD6;&#x5C4F; --&gt;
+&lt;meta name=&quot;screen-orientation&quot; content=&quot;portrait&quot;&gt;
+&lt;!-- QQ&#x5F3A;&#x5236;&#x7AD6;&#x5C4F; --&gt;
+&lt;meta name=&quot;x5-orientation&quot; content=&quot;portrait&quot;&gt;
+&lt;!-- UC&#x5F3A;&#x5236;&#x5168;&#x5C4F; --&gt;
+&lt;meta name=&quot;full-screen&quot; content=&quot;yes&quot;&gt;
+&lt;!-- QQ&#x5F3A;&#x5236;&#x5168;&#x5C4F; --&gt;
+&lt;meta name=&quot;x5-fullscreen&quot; content=&quot;true&quot;&gt;
+&lt;!-- UC&#x5E94;&#x7528;&#x6A21;&#x5F0F; --&gt;
+&lt;meta name=&quot;browsermode&quot; content=&quot;application&quot;&gt;
+&lt;!-- QQ&#x5E94;&#x7528;&#x6A21;&#x5F0F; --&gt;
+&lt;meta name=&quot;x5-page-mode&quot; content=&quot;app&quot;&gt;
+&lt;!-- windows phone &#x70B9;&#x51FB;&#x65E0;&#x9AD8;&#x5149; --&gt;
+&lt;meta name=&quot;msapplication-tap-highlight&quot; content=&quot;no&quot;&gt;
+&lt;!-- &#x9002;&#x5E94;&#x79FB;&#x52A8;&#x7AEF;end --&gt;
+</code></pre><h4 id="&#x5B57;&#x7B26;&#x7F16;&#x7801;">&#x5B57;&#x7B26;&#x7F16;&#x7801;</h4>
+<ul>
+<li>&#x4EE5;&#x65E0; BOM &#x7684; utf-8 &#x7F16;&#x7801;&#x4F5C;&#x4E3A;&#x6587;&#x4EF6;&#x683C;&#x5F0F;;</li>
+<li>&#x6307;&#x5B9A;&#x5B57;&#x7B26;&#x7F16;&#x7801;&#x7684; meta &#x5FC5;&#x987B;&#x662F; head &#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x76F4;&#x63A5;&#x5B50;&#x5143;&#x7D20;&#xFF1B;&#x8BF7;&#x53C2;&#x8003;&#x524D;&#x7AEF;&#x89C2;&#x5BDF;&#x7684;&#x535A;&#x6587;&#xFF1A; <a href="http://www.qianduan.net/html5-charset-can-it.html" target="_blank">HTML5 Charset &#x80FD;&#x7528;&#x5417;&#xFF1F;</a></li>
+<li>&#x5982;&#x679C;&#x8D44;&#x8BAF;&#x3001;&#x8BBA;&#x575B;&#x7B49;&#x4E00;&#x4E9B;&#x9891;&#x9053;&#xFF0C;&#x7531;&#x4E8E;<code>&#x5386;&#x53F2;&#x539F;&#x56E0;</code>&#x9700;&#x8981;&#x7528; <strong>gbk</strong> &#x7684;&#x7F16;&#x7801;&#x3002;</li>
+</ul>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">&quot;utf-8&quot;</span>&gt;</span>
+    ......
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    ......
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">&quot;gbk&quot;</span>&gt;</span>
+    ......
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    ......
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<h4 id="ie-&#x517C;&#x5BB9;&#x6A21;&#x5F0F;">IE &#x517C;&#x5BB9;&#x6A21;&#x5F0F;</h4>
+<p>&#x4F18;&#x5148;&#x4F7F;&#x7528;&#x6700;&#x65B0;&#x7248;&#x672C;&#x7684;IE &#x548C; Chrome &#x5185;&#x6838;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">&quot;X-UA-Compatible&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;IE=edge,chrome=1&quot;</span>&gt;</span>
+</code></pre>
+<h4 id="360&#x6D4F;&#x89C8;&#x5668;">360&#x6D4F;&#x89C8;&#x5668;</h4>
+<p>&#x7531;&#x4E8E;360&#x6D4F;&#x89C8;&#x5668;&#x9ED8;&#x8BA4;&#x6A21;&#x5F0F;&#x4E3A;IE7&#x6A21;&#x5F0F;&#xFF0C;&#x4E3A;&#x4E86;&#x907F;&#x514D;&#x4E00;&#x4E9B;&#x9519;&#x8BEF;&#xFF0C;&#x9700;&#x8981;&#x52A0;&#x4E0A;&#x5355;&#x72EC;&#x7684;meta&#x6807;&#x7B7E;&#x5982;&#x4E0B;&#xFF1A; </p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;renderer&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;webkit&quot;</span>&gt;</span>
+</code></pre>
+<h4 id="seo-&#x4F18;&#x5316;">SEO &#x4F18;&#x5316;</h4>
+<p><strong>H1</strong>&#x6807;&#x7B7E;&#x548C;<strong>H2</strong>&#x6807;&#x7B7E;&#x4E3A;SEO&#x9884;&#x7559;&#xFF0C;&#x6240;&#x4EE5;&#xFF0C;&#x9875;&#x9762;&#x4E0A;&#x5C3D;&#x91CF;&#x4E0D;&#x8981;&#x6709;H1&#x548C;H2&#x6807;&#x7B7E;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">&quot;utf-8&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;renderer&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;webkit&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">&quot;X-UA-Compatible&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;IE=edge,chrome=1&quot;</span>&gt;</span>
+    <span class="hljs-comment">&lt;!-- SEO --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Style Guide<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;keywords&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;your keywords&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;description&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;your description&quot;</span>&gt;</span> 
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+</code></pre>
+<hr>
+<h3 id="&#x4EE5;&#x4E0B;&#x90E8;&#x5206;&#x662F;h5&#x9875;&#x9762;&#x9700;&#x8981;&#x7528;&#x5230;&#x7684;&#x90E8;&#x5206;&#x5185;&#x5BB9;">&#x4EE5;&#x4E0B;&#x90E8;&#x5206;&#x662F;H5&#x9875;&#x9762;&#x9700;&#x8981;&#x7528;&#x5230;&#x7684;&#x90E8;&#x5206;&#x5185;&#x5BB9;</h3>
+<h4 id="viewport">viewport</h4>
+<ul>
+<li><code>viewport</code>: &#x4E00;&#x822C;&#x6307;&#x7684;&#x662F;&#x6D4F;&#x89C8;&#x5668;&#x7A97;&#x53E3;&#x5185;&#x5BB9;&#x533A;&#x7684;&#x5927;&#x5C0F;&#xFF0C;&#x4E0D;&#x5305;&#x542B;&#x5DE5;&#x5177;&#x6761;&#x3001;&#x9009;&#x9879;&#x5361;&#x7B49;&#x5185;&#x5BB9;&#xFF1B;</li>
+<li><code>width</code>: &#x6D4F;&#x89C8;&#x5668;&#x5BBD;&#x5EA6;&#xFF0C;&#x8F93;&#x51FA;&#x8BBE;&#x5907;&#x4E2D;&#x7684;&#x9875;&#x9762;&#x53EF;&#x89C1;&#x533A;&#x57DF;&#x5BBD;&#x5EA6;&#xFF1B;</li>
+<li><code>device-width</code>: &#x8BBE;&#x5907;&#x5206;&#x8FA8;&#x7387;&#x5BBD;&#x5EA6;&#xFF0C;&#x8F93;&#x51FA;&#x8BBE;&#x5907;&#x7684;&#x5C4F;&#x5E55;&#x53EF;&#x89C1;&#x5BBD;&#x5EA6;&#xFF1B;</li>
+<li><code>initial-scale</code>: &#x521D;&#x59CB;&#x7F29;&#x653E;&#x6BD4;&#x4F8B;&#xFF1B;</li>
+<li><code>maximum-scale</code>: &#x6700;&#x5927;&#x7F29;&#x653E;&#x6BD4;&#x4F8B;&#xFF1B;</li>
+</ul>
+<p>&#x4E3A;&#x79FB;&#x52A8;&#x7AEF;&#x8BBE;&#x5907;&#x4F18;&#x5316;&#xFF0C;&#x8BBE;&#x7F6E;&#x53EF;&#x89C1;&#x533A;&#x57DF;&#x7684;&#x5BBD;&#x5EA6;&#x548C;&#x521D;&#x59CB;&#x7F29;&#x653E;&#x6BD4;&#x4F8B;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;viewport&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span>
+</code></pre>
+<h4 id="ios-&#x56FE;&#x6807;">iOS &#x56FE;&#x6807;</h4>
+<ul>
+<li>apple-touch-icon &#x56FE;&#x7247;&#x81EA;&#x52A8;&#x5904;&#x7406;&#x6210;&#x5706;&#x89D2;&#x548C;&#x9AD8;&#x5149;&#x7B49;&#x6548;&#x679C;;</li>
+<li>apple-touch-icon-precomposed &#x7981;&#x6B62;&#x7CFB;&#x7EDF;&#x81EA;&#x52A8;&#x6DFB;&#x52A0;&#x6548;&#x679C;&#xFF0C;&#x76F4;&#x63A5;&#x663E;&#x793A;&#x8BBE;&#x8BA1;&#x539F;&#x56FE;;</li>
+</ul>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!-- iPhone &#x548C; iTouch&#xFF0C;&#x9ED8;&#x8BA4; 57x57 &#x50CF;&#x7D20;&#xFF0C;&#x5FC5;&#x987B;&#x6709; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;apple-touch-icon-precomposed&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/apple-touch-icon-57x57-precomposed.png&quot;</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!-- iPad&#xFF0C;72x72 &#x50CF;&#x7D20;&#xFF0C;&#x53EF;&#x4EE5;&#x6CA1;&#x6709;&#xFF0C;&#x4F46;&#x63A8;&#x8350;&#x6709; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;apple-touch-icon-precomposed&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/apple-touch-icon-72x72-precomposed.png&quot;</span> <span class="hljs-attr">sizes</span>=<span class="hljs-string">&quot;72x72&quot;</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!-- Retina iPhone &#x548C; Retina iTouch&#xFF0C;114x114 &#x50CF;&#x7D20;&#xFF0C;&#x53EF;&#x4EE5;&#x6CA1;&#x6709;&#xFF0C;&#x4F46;&#x63A8;&#x8350;&#x6709; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;apple-touch-icon-precomposed&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/apple-touch-icon-114x114-precomposed.png&quot;</span> <span class="hljs-attr">sizes</span>=<span class="hljs-string">&quot;114x114&quot;</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!-- Retina iPad&#xFF0C;144x144 &#x50CF;&#x7D20;&#xFF0C;&#x53EF;&#x4EE5;&#x6CA1;&#x6709;&#xFF0C;&#x4F46;&#x63A8;&#x8350;&#x6709; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;apple-touch-icon-precomposed&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/apple-touch-icon-144x144-precomposed.png&quot;</span> <span class="hljs-attr">sizes</span>=<span class="hljs-string">&quot;144x144&quot;</span>&gt;</span>
+</code></pre>
+<h4 id="favicon">favicon</h4>
+<p>&#x5728;&#x672A;&#x6307;&#x5B9A; favicon &#x65F6;&#xFF0C;&#x5927;&#x591A;&#x6570;&#x6D4F;&#x89C8;&#x5668;&#x4F1A;&#x8BF7;&#x6C42; Web Server &#x6839;&#x76EE;&#x5F55;&#x4E0B;&#x7684; favicon.ico &#x3002;&#x4E3A;&#x4E86;&#x4FDD;&#x8BC1; favicon &#x53EF;&#x8BBF;&#x95EE;&#xFF0C;&#x907F;&#x514D;404&#xFF0C;&#x5FC5;&#x987B;&#x9075;&#x5FAA;&#x4EE5;&#x4E0B;&#x4E24;&#x79CD;&#x65B9;&#x6CD5;&#x4E4B;&#x4E00;&#xFF1A;</p>
+<ul>
+<li>&#x5728; Web Server &#x6839;&#x76EE;&#x5F55;&#x653E;&#x7F6E; favicon.ico &#x6587;&#x4EF6;&#xFF1B;</li>
+<li>&#x4F7F;&#x7528; link &#x6307;&#x5B9A; favicon&#xFF1B;</li>
+</ul>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;shortcut icon&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;path/to/favicon.ico&quot;</span>&gt;</span>
+</code></pre>
+<h4 id="head-&#x6A21;&#x677F;-&#x53EF;&#x6839;&#x636E;&#x5B9E;&#x9645;&#x9879;&#x76EE;&#x659F;&#x914C;&#x52A0;&#x51CF;meta&#x6807;&#x7B7E;">HEAD &#x6A21;&#x677F; (&#x53EF;&#x6839;&#x636E;&#x5B9E;&#x9645;&#x9879;&#x76EE;&#x659F;&#x914C;&#x52A0;&#x51CF;meta&#x6807;&#x7B7E;)</h4>
+<pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">&quot;zh-cmn-Hans&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">&quot;utf-8&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;renderer&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;webkit&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">&quot;X-UA-Compatible&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;IE=edge,chrome=1&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Style Guide<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;description&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;&#x4E0D;&#x8D85;&#x8FC7;150&#x4E2A;&#x5B57;&#x7B26;&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;keywords&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span> 
+
+    <span class="hljs-comment">&lt;!-- &#x4E3A;&#x79FB;&#x52A8;&#x8BBE;&#x5907;&#x6DFB;&#x52A0; viewport --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;viewport&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span> 
+    <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;shortcut icon&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;path/to/favicon.ico&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="structure.html" class="navigation navigation-prev " aria-label="Previous page: 模块化">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="globalTemplate.html" class="navigation navigation-next " aria-label="Next page: 大招必读--通用模板">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"HEAD","level":"1.5.4","depth":2,"next":{"title":"大招必读--通用模板","level":"1.5.5","depth":2,"path":"html/globalTemplate.md","ref":"html/globalTemplate.md","articles":[]},"previous":{"title":"模块化","level":"1.5.3","depth":2,"path":"html/structure.md","ref":"html/structure.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":" "},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":false,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":36,"left":36,"top":36,"bottom":36},"toc":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"前端暂行规范v1.1","links":{"home":"","about":"","issues":null,"contribute":null},"gitbook":"*"},"file":{"path":"html/head.md","mtime":"2017-11-09T09:32:14.120Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-10T06:52:29.297Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

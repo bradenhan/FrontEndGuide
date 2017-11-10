@@ -1,0 +1,774 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>性能优化 · 前端暂行规范v1.1</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="adaptation.html" />
+    
+    
+    <link rel="prev" href="general.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../directory-structure/">
+            
+                <a href="../directory-structure/">
+            
+                    
+                    目录结构和文件命名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../directory-picture/">
+            
+                <a href="../directory-picture/">
+            
+                    
+                    图片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../basic/">
+            
+                <a href="../basic/">
+            
+                    
+                    代码基本原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../html/">
+            
+                <a href="../html/">
+            
+                    
+                    HTML
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../html/general.html">
+            
+                <a href="../html/general.html">
+            
+                    
+                    通用约定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../html/semantic.html">
+            
+                <a href="../html/semantic.html">
+            
+                    
+                    语义化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../html/structure.html">
+            
+                <a href="../html/structure.html">
+            
+                    
+                    模块化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../html/head.html">
+            
+                <a href="../html/head.html">
+            
+                    
+                    HEAD
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../html/globalTemplate.html">
+            
+                <a href="../html/globalTemplate.html">
+            
+                    
+                    大招必读--通用模板
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../css/">
+            
+                <a href="../css/">
+            
+                    
+                    CSS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../css/general.html">
+            
+                <a href="../css/general.html">
+            
+                    
+                    通用约定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../css/typography.html">
+            
+                <a href="../css/typography.html">
+            
+                    
+                    字体排印
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../css/structure.html">
+            
+                <a href="../css/structure.html">
+            
+                    
+                    模块组织
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../css/less.html">
+            
+                <a href="../css/less.html">
+            
+                    
+                    Less 规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../css/performance.html">
+            
+                <a href="../css/performance.html">
+            
+                    
+                    性能优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../css/compress.html">
+            
+                <a href="../css/compress.html">
+            
+                    
+                    css压缩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../css/globalTemplate.html">
+            
+                <a href="../css/globalTemplate.html">
+            
+                    
+                    大招必读--通用模板
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../javascript/">
+            
+                <a href="../javascript/">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../javascript/general.html">
+            
+                <a href="../javascript/general.html">
+            
+                    
+                    通用约定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../javascript/jquery.html">
+            
+                <a href="../javascript/jquery.html">
+            
+                    
+                    jQuery 规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../javascript/performance.html">
+            
+                <a href="../javascript/performance.html">
+            
+                    
+                    性能优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    H5 + 移动端
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="general.html">
+            
+                <a href="general.html">
+            
+                    
+                    通用约定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.8.2" data-path="performance.html">
+            
+                <a href="performance.html">
+            
+                    
+                    性能优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="adaptation.html">
+            
+                <a href="adaptation.html">
+            
+                    
+                    移动端适配
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../code-storage/">
+            
+                <a href="../code-storage/">
+            
+                    
+                    代码存储
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../code-storage/SVN.html">
+            
+                <a href="../code-storage/SVN.html">
+            
+                    
+                    SVN
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../compatibility-and-testing/">
+            
+                <a href="../compatibility-and-testing/">
+            
+                    
+                    兼容性和测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../appendix/">
+            
+                <a href="../appendix/">
+            
+                    
+                    附录
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../appendix/tool.html">
+            
+                <a href="../appendix/tool.html">
+            
+                    
+                    工具箱
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="../appendix/reference.html">
+            
+                <a href="../appendix/reference.html">
+            
+                    
+                    参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >性能优化</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x79FB;&#x52A8;&#x7AEF;&#x4F18;&#x5316;">&#x79FB;&#x52A8;&#x7AEF;&#x4F18;&#x5316;</h1>
+<h4 id="click-&#x7684;-300ms-&#x5EF6;&#x8FDF;&#x54CD;&#x5E94;">click &#x7684; 300ms &#x5EF6;&#x8FDF;&#x54CD;&#x5E94;</h4>
+<p>click &#x7684; 300ms &#x5EF6;&#x8FDF;&#x662F;&#x7531;&#x53CC;&#x51FB;&#x7F29;&#x653E;(double tap to zoom)&#x6240;&#x5BFC;&#x81F4;&#x7684;&#xFF0C;&#x7531;&#x4E8E;&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x53CC;&#x51FB;&#x7F29;&#x653E;&#x6216;&#x8005;&#x53CC;&#x51FB;&#x6EDA;&#x52A8;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x5F53;&#x7528;&#x6237;&#x4E00;&#x6B21;&#x70B9;&#x51FB;&#x5C4F;&#x5E55;&#x4E4B;&#x540E;&#xFF0C;&#x6D4F;&#x89C8;&#x5668;&#x5E76;&#x4E0D;&#x80FD;&#x7ACB;&#x523B;&#x5224;&#x65AD;&#x7528;&#x6237;&#x662F;&#x786E;&#x5B9E;&#x8981;&#x6253;&#x5F00;&#x8FD9;&#x4E2A;&#x94FE;&#x63A5;&#xFF0C;&#x8FD8;&#x662F;&#x60F3;&#x8981;&#x8FDB;&#x884C;&#x53CC;&#x51FB;&#x64CD;&#x4F5C;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x79FB;&#x52A8;&#x7AEF;&#x6D4F;&#x89C8;&#x5668;&#x5C31;&#x7B49;&#x5F85; 300 &#x6BEB;&#x79D2;&#xFF0C;&#x4EE5;&#x5224;&#x65AD;&#x7528;&#x6237;&#x662F;&#x5426;&#x518D;&#x6B21;&#x70B9;&#x51FB;&#x4E86;&#x5C4F;&#x5E55;&#x3002;</p>
+<p>&#x968F;&#x7740;&#x54CD;&#x5E94;&#x5F0F;&#x7F51;&#x9875;&#x9010;&#x6E10;&#x589E;&#x591A;&#xFF0C;&#x7528;&#x6237;&#x4F7F;&#x7528;&#x53CC;&#x51FB;&#x7F29;&#x653E;&#x673A;&#x4F1A;&#x51CF;&#x5C11;&#xFF0C;&#x8FD9; 300ms &#x7684;&#x5EF6;&#x8FDF;&#x5C31;&#x66F4;&#x4E0D;&#x53EF;&#x63A5;&#x53D7;&#x4E86;&#x3002;&#x6D4F;&#x89C8;&#x5668;&#x5F00;&#x53D1;&#x5546;&#x4E5F;&#x968F;&#x4E4B;&#x63D0;&#x4F9B;&#x76F8;&#x5E94;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x3002;&#x8FD9;&#x4E9B;&#x65B9;&#x6848;&#x5728;<a href="http://www.sitepoint.com/5-ways-prevent-300ms-click-delay-mobile-devices/" target="_blank">5 Ways to Prevent the 300ms Click Delay on Mobile Devices</a> &#x4E2D;&#xFF0C;&#x88AB;&#x63D0;&#x53CA;&#x7684;&#x5305;&#x62EC;&#x300C;&#x7981;&#x7528;&#x7F29;&#x653E;&#x300D;&#x548C;&#x300C;width=device-width&#x300D;&#x7B49;&#x65B9;&#x6848;&#xFF0C;&#x4F46;&#x8FD9;&#x4E9B;&#x65B9;&#x6848;&#x5E76;&#x4E0D;&#x5B8C;&#x7F8E;&#xFF0C;&#x9700;&#x8981;&#x9488;&#x5BF9;&#x67D0;&#x4E9B;&#x7248;&#x672C;&#x6D4F;&#x89C8;&#x5668;&#xFF0C;&#x53C8;&#x6216;&#x4EC5;&#x5728; Android &#x7684;&#x6D4F;&#x89C8;&#x5668;&#x4E0A;&#x4F7F;&#x7528;&#x3002;</p>
+<p>&#x6240;&#x4EE5;&#x8FD9;&#x65F6;&#x5019;&#x5C31;&#x9700;&#x8981;&#x4E00;&#x4E2A;&#x66F4;&#x7B80;&#x5355;&#x901A;&#x7528;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#xFF0C;&#x5176;&#x4E2D; <a href="http://labs.ft.com/" target="_blank">FT Labs</a> &#x4E13;&#x95E8;&#x4E3A;&#x89E3;&#x51B3;&#x79FB;&#x52A8;&#x7AEF;&#x6D4F;&#x89C8;&#x5668; 300 &#x6BEB;&#x79D2;&#x70B9;&#x51FB;&#x5EF6;&#x8FDF;&#x95EE;&#x9898;&#x6240;&#x5F00;&#x53D1;&#x7684;&#x4E00;&#x4E2A;&#x8F7B;&#x91CF;&#x7EA7;&#x7684;&#x5E93; <a href="https://github.com/ftlabs/fastclick" target="_blank">FastClick</a> &#x5C31;&#x662F;&#x5F88;&#x597D;&#x7684;&#x9009;&#x62E9;&#x3002;FastClick &#x5728;&#x68C0;&#x6D4B;&#x5230; touchend &#x4E8B;&#x4EF6;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4F1A;&#x901A;&#x8FC7; DOM &#x81EA;&#x5B9A;&#x4E49;&#x4E8B;&#x4EF6;&#x7ACB;&#x5373;&#x89E6;&#x53D1;&#x4E00;&#x4E2A;&#x6A21;&#x62DF; click &#x4E8B;&#x4EF6;&#xFF0C;&#x5E76;&#x628A;&#x6D4F;&#x89C8;&#x5668;&#x5728; 300 &#x6BEB;&#x79D2;&#x4E4B;&#x540E;&#x771F;&#x6B63;&#x89E6;&#x53D1;&#x7684; click &#x4E8B;&#x4EF6;&#x963B;&#x6B62;&#x6389;&#x3002;</p>
+<p>FastClick &#x7684;&#x4F7F;&#x7528;&#x65B9;&#x6CD5;&#x975E;&#x5E38;&#x7B80;&#x5355;&#xFF0C;&#x5728; window load &#x4E8B;&#x4EF6;&#x4E4B;&#x540E;&#xFF0C;&#x5728; <code>&lt;body&gt;</code> &#x4E0A;&#x8C03;&#x7528;<code>FastClick.attach()</code> &#x5373;&#x53EF;&#x3002;</p>
+<pre><code class="lang-javascript"><span class="hljs-built_in">window</span>.addEventListener( <span class="hljs-string">&quot;load&quot;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    FastClick.attach( <span class="hljs-built_in">document</span>.body );
+}, <span class="hljs-literal">false</span> );
+</code></pre>
+<h4 id="&#x5FEB;&#x901F;&#x56DE;&#x5F39;&#x6EDA;&#x52A8;">&#x5FEB;&#x901F;&#x56DE;&#x5F39;&#x6EDA;&#x52A8;</h4>
+<p>&#x5FEB;&#x901F;&#x56DE;&#x5F39;&#x6EDA;&#x52A8;&#x5728;&#x624B;&#x673A;&#x6D4F;&#x89C8;&#x5668;&#x4E0A;&#x7684;&#x53D1;&#x5C55;&#x5386;&#x53F2;&#xFF1A;</p>
+<ol>
+<li>&#x65E9;&#x671F;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x79FB;&#x52A8;&#x7AEF;&#x7684;&#x6D4F;&#x89C8;&#x5668;&#x90FD;&#x4E0D;&#x652F;&#x6301;&#x975E; body &#x5143;&#x7D20;&#x7684;&#x6EDA;&#x52A8;&#x6761;&#xFF0C;&#x6240;&#x4EE5;&#x4E00;&#x822C;&#x90FD;&#x501F;&#x52A9; iScroll;</li>
+<li>Android 3.0 / iOS &#x89E3;&#x51B3;&#x4E86;&#x975E; body &#x5143;&#x7D20;&#x7684;&#x6EDA;&#x52A8;&#x95EE;&#x9898;&#xFF0C;&#x4F46;&#x6EDA;&#x52A8;&#x6761;&#x4E0D;&#x53EF;&#x89C1;&#xFF0C;&#x540C;&#x65F6; iOS &#x4E0A;&#x53EA;&#x80FD;&#x901A;&#x8FC7;2&#x4E2A;&#x624B;&#x6307;&#x8FDB;&#x884C;&#x6EDA;&#x52A8;&#xFF1B;</li>
+<li>Android 4.0 &#x89E3;&#x51B3;&#x4E86;&#x6EDA;&#x52A8;&#x6761;&#x4E0D;&#x53EF;&#x89C1;&#x53CA;&#x589E;&#x52A0;&#x4E86;&#x5FEB;&#x901F;&#x56DE;&#x5F39;&#x6EDA;&#x52A8;&#x6548;&#x679C;&#xFF0C;&#x4E0D;&#x8FC7;&#x968F;&#x540E;&#x8FD9;&#x4E2A;&#x7279;&#x6027;&#x53C8;&#x88AB;&#x79FB;&#x9664;&#xFF1B;</li>
+<li>iOS&#x4ECE;5.0&#x5F00;&#x59CB;&#x89E3;&#x51B3;&#x4E86;&#x6EDA;&#x52A8;&#x6761;&#x4E0D;&#x53EF;&#x89C1;&#x53CA;&#x589E;&#x52A0;&#x4E86;&#x5FEB;&#x901F;&#x56DE;&#x5F39;&#x6EDA;&#x52A8;&#x6548;&#x679C;</li>
+</ol>
+<p>&#x5982;&#x679C;&#x60F3;&#x8981;&#x4E3A;&#x67D0;&#x4E2A;&#x5143;&#x7D20;&#x62E5;&#x6709; Native &#x822C;&#x7684;&#x6EDA;&#x52A8;&#x6548;&#x679C;&#xFF0C;&#x53EF;&#x4EE5;&#x8FD9;&#x6837;&#x64CD;&#x4F5C;&#xFF1A;</p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.element</span> {
+    <span class="hljs-attribute">overflow</span>: auto; <span class="hljs-comment">/* auto | scroll */</span>
+    <span class="hljs-attribute">-webkit-overflow-scrolling</span>: touch;
+}
+</code></pre>
+<p>&#x9664;&#x4E86; iScroll &#x4E4B;&#x5916;&#xFF0C;&#x8FD8;&#x6709;&#x4E00;&#x4E2A;&#x66F4;&#x52A0;&#x5F3A;&#x5927;&#x7684;&#x6EDA;&#x52A8;&#x63D2;&#x4EF6; <a href="http://www.idangero.us/swiper/#.VfaVk52qqko" target="_blank">Swiper</a>&#xFF0C;&#x652F;&#x6301; 3D &#x548C;&#x5185;&#x7F6E;&#x6EDA;&#x52A8;&#x6761;&#x7B49;&#x3002;</p>
+<h4 id="&#x8BBE;&#x5907;&#x68C0;&#x6D4B;">&#x8BBE;&#x5907;&#x68C0;&#x6D4B;</h4>
+<pre><code class="lang-javascript"><span class="hljs-comment">// &#x8FD9;&#x6BB5;&#x4EE3;&#x7801;&#x5F15;&#x7528;&#x81EA;&#xFF1A;https://github.com/binnng/device.js</span>
+
+<span class="hljs-keyword">var</span> WIN = <span class="hljs-built_in">window</span>;
+<span class="hljs-keyword">var</span> LOC = WIN[<span class="hljs-string">&quot;location&quot;</span>];
+<span class="hljs-keyword">var</span> NA = WIN.navigator;
+<span class="hljs-keyword">var</span> UA = NA.userAgent.toLowerCase();
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">test</span>(<span class="hljs-params">needle</span>) </span>{
+  <span class="hljs-keyword">return</span> needle.test(UA);
+}
+
+<span class="hljs-keyword">var</span> IsTouch = <span class="hljs-string">&quot;ontouchend&quot;</span> <span class="hljs-keyword">in</span> WIN;
+<span class="hljs-keyword">var</span> IsAndroid = test(<span class="hljs-regexp">/android|htc/</span>) || <span class="hljs-regexp">/linux/i</span>.test(NA.platform + <span class="hljs-string">&quot;&quot;</span>);
+<span class="hljs-keyword">var</span> IsIPad = !IsAndroid &amp;&amp; test(<span class="hljs-regexp">/ipad/</span>);
+<span class="hljs-keyword">var</span> IsIPhone = !IsAndroid &amp;&amp; test(<span class="hljs-regexp">/ipod|iphone/</span>);
+<span class="hljs-keyword">var</span> IsIOS = IsIPad || IsIPhone;
+<span class="hljs-keyword">var</span> IsWinPhone = test(<span class="hljs-regexp">/windows phone/</span>);
+<span class="hljs-keyword">var</span> IsWebapp = !!NA[<span class="hljs-string">&quot;standalone&quot;</span>];
+<span class="hljs-keyword">var</span> IsXiaoMi = IsAndroid &amp;&amp; test(<span class="hljs-regexp">/mi\s+/</span>);
+<span class="hljs-keyword">var</span> IsUC = test(<span class="hljs-regexp">/ucbrowser/</span>);
+<span class="hljs-keyword">var</span> IsWeixin = test(<span class="hljs-regexp">/micromessenger/</span>);
+<span class="hljs-keyword">var</span> IsBaiduBrowser = test(<span class="hljs-regexp">/baidubrowser/</span>);
+<span class="hljs-keyword">var</span> IsChrome = !!WIN[<span class="hljs-string">&quot;chrome&quot;</span>];
+<span class="hljs-keyword">var</span> IsBaiduBox = test(<span class="hljs-regexp">/baiduboxapp/</span>);
+<span class="hljs-keyword">var</span> IsPC = !IsAndroid &amp;&amp; !IsIOS &amp;&amp; !IsWinPhone;
+<span class="hljs-keyword">var</span> IsHTC = IsAndroid &amp;&amp; test(<span class="hljs-regexp">/htc\s+/</span>);
+<span class="hljs-keyword">var</span> IsBaiduWallet = test(<span class="hljs-regexp">/baiduwallet/</span>);
+</code></pre>
+<h4 id="&#x83B7;&#x53D6;&#x6EDA;&#x52A8;&#x6761;&#x503C;">&#x83B7;&#x53D6;&#x6EDA;&#x52A8;&#x6761;&#x503C;</h4>
+<p>PC &#x7AEF;&#x6EDA;&#x52A8;&#x6761;&#x7684;&#x503C;&#x662F;&#x901A;&#x8FC7; <code>document.scrollTop</code> &#x548C; <code>document.scrollLeft</code> &#x83B7;&#x5F97;&#xFF0C;&#x4F46;&#x5728; iOS &#x4E2D;&#x5E76;&#x6CA1;&#x6709;&#x6EDA;&#x52A8;&#x6761;&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x6240;&#x4EE5;&#x4EC5;&#x80FD;&#x901A;&#x8FC7; windows.scroll &#x83B7;&#x53D6;&#xFF0C;&#x540C;&#x65F6;&#x4E5F;&#x80FD;&#x517C;&#x5BB9; Android &#x3002;</p>
+<pre><code class="lang-javascript"><span class="hljs-built_in">window</span>.scrollY
+<span class="hljs-built_in">window</span>.scrollX
+</code></pre>
+<h4 id="&#x6E05;&#x9664;&#x8F93;&#x5165;&#x6846;&#x5185;&#x9634;&#x5F71;">&#x6E05;&#x9664;&#x8F93;&#x5165;&#x6846;&#x5185;&#x9634;&#x5F71;</h4>
+<p>&#x5728; iOS &#x4E0A;&#xFF0C;&#x8F93;&#x5165;&#x6846;&#x9ED8;&#x8BA4;&#x6709;&#x5185;&#x90E8;&#x9634;&#x5F71;&#xFF0C;&#x4F46;&#x65E0;&#x6CD5;&#x4F7F;&#x7528; box-shadow &#x6765;&#x6E05;&#x9664;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x9700;&#x8981;&#x9634;&#x5F71;&#xFF0C;&#x53EF;&#x4EE5;&#x8FD9;&#x6837;&#x64CD;&#x4F5C;&#xFF1A;</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">input</span>,
+<span class="hljs-selector-tag">textarea</span> {
+    <span class="hljs-attribute">border</span>: <span class="hljs-number">0</span>; <span class="hljs-comment">/* &#x65B9;&#x6CD5;1 */</span>
+    <span class="hljs-attribute">-webkit-appearance</span>: none; <span class="hljs-comment">/* &#x65B9;&#x6CD5;2 */</span>
+}
+</code></pre>
+<h4 id="meta-&#x76F8;&#x5173;">Meta &#x76F8;&#x5173;</h4>
+<h5 id="&#x9875;&#x9762;&#x7A97;&#x53E3;&#x81EA;&#x52A8;&#x8C03;&#x6574;&#x5230;&#x8BBE;&#x5907;&#x5BBD;&#x5EA6;&#xFF0C;&#x5E76;&#x7981;&#x6B62;&#x7528;&#x6237;&#x7F29;&#x653E;&#x9875;&#x9762;">&#x9875;&#x9762;&#x7A97;&#x53E3;&#x81EA;&#x52A8;&#x8C03;&#x6574;&#x5230;&#x8BBE;&#x5907;&#x5BBD;&#x5EA6;&#xFF0C;&#x5E76;&#x7981;&#x6B62;&#x7528;&#x6237;&#x7F29;&#x653E;&#x9875;&#x9762;</h5>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;viewport&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no&quot;</span> /&gt;</span>
+</code></pre>
+<h5 id="&#x7535;&#x8BDD;&#x53F7;&#x7801;&#x8BC6;&#x522B;">&#x7535;&#x8BDD;&#x53F7;&#x7801;&#x8BC6;&#x522B;</h5>
+<p>iOS Safari ( Android &#x6216;&#x5176;&#x4ED6;&#x6D4F;&#x89C8;&#x5668;&#x4E0D;&#x4F1A;) &#x4F1A;&#x81EA;&#x52A8;&#x8BC6;&#x522B;&#x770B;&#x8D77;&#x6765;&#x50CF;&#x7535;&#x8BDD;&#x53F7;&#x7801;&#x7684;&#x6570;&#x5B57;&#xFF0C;&#x5C06;&#x5176;&#x5904;&#x7406;&#x4E3A;&#x7535;&#x8BDD;&#x53F7;&#x7801;&#x94FE;&#x63A5;&#xFF0C;&#x6BD4;&#x5982;&#xFF1A;</p>
+<ul>
+<li>7&#x4F4D;&#x6570;&#x5B57;&#xFF0C;&#x5F62;&#x5982;&#xFF1A;1234567</li>
+<li>&#x5E26;&#x62EC;&#x53F7;&#x53CA;&#x52A0;&#x53F7;&#x7684;&#x6570;&#x5B57;&#xFF0C;&#x5F62;&#x5982;&#xFF1A;(+86)123456789</li>
+<li>&#x53CC;&#x8FDE;&#x63A5;&#x7EBF;&#x7684;&#x6570;&#x5B57;&#xFF0C;&#x5F62;&#x5982;&#xFF1A;00-00-00111</li>
+<li>11&#x4F4D;&#x6570;&#x5B57;&#xFF0C;&#x5F62;&#x5982;&#xFF1A;13800138000</li>
+</ul>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!-- &#x5173;&#x95ED;&#x7535;&#x8BDD;&#x53F7;&#x7801;&#x8BC6;&#x522B;&#xFF1A; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;format-detection&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;telephone=no&quot;</span> /&gt;</span>
+
+<span class="hljs-comment">&lt;!-- &#x5F00;&#x542F;&#x7535;&#x8BDD;&#x529F;&#x80FD;&#xFF1A; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;tel:123456&quot;</span>&gt;</span>123456<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!-- &#x5F00;&#x542F;&#x77ED;&#x4FE1;&#x529F;&#x80FD;&#xFF1A; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;sms:123456&quot;</span>&gt;</span>123456<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+</code></pre>
+<h5 id="&#x90AE;&#x7BB1;&#x5730;&#x5740;&#x7684;&#x8BC6;&#x522B;">&#x90AE;&#x7BB1;&#x5730;&#x5740;&#x7684;&#x8BC6;&#x522B;</h5>
+<p>&#x5728; Android &#xFF08; iOS &#x4E0D;&#x4F1A;&#xFF09;&#x4E0A;&#xFF0C;&#x6D4F;&#x89C8;&#x5668;&#x4F1A;&#x81EA;&#x52A8;&#x8BC6;&#x522B;&#x770B;&#x8D77;&#x6765;&#x50CF;&#x90AE;&#x7BB1;&#x5730;&#x5740;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x4E0D;&#x8BBA;&#x6709;&#x4F60;&#x6CA1;&#x6709;&#x52A0;&#x4E0A;&#x90AE;&#x7BB1;&#x94FE;&#x63A5;&#xFF0C;&#x5F53;&#x4F60;&#x5728;&#x8FD9;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x4E0A;&#x957F;&#x6309;&#xFF0C;&#x4F1A;&#x5F39;&#x51FA;&#x53D1;&#x90AE;&#x4EF6;&#x7684;&#x63D0;&#x793A;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!-- &#x5173;&#x95ED;&#x90AE;&#x7BB1;&#x5730;&#x5740;&#x8BC6;&#x522B;&#xFF1A; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;format-detection&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;email=no&quot;</span> /&gt;</span>
+
+<span class="hljs-comment">&lt;!-- &#x5F00;&#x542F;&#x90AE;&#x4EF6;&#x53D1;&#x9001;&#xFF1A; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">mailto:</span>&gt;</span>mobile@gmail.com&quot;&gt;mobile@gmail.com<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+</code></pre>
+<h5 id="&#x6307;&#x5B9A;-ios-&#x7684;-safari-&#x9876;&#x7AEF;&#x72B6;&#x6001;&#x6761;&#x7684;&#x6837;&#x5F0F;">&#x6307;&#x5B9A; iOS &#x7684; safari &#x9876;&#x7AEF;&#x72B6;&#x6001;&#x6761;&#x7684;&#x6837;&#x5F0F;</h5>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;apple-mobile-web-app-status-bar-style&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;black&quot;</span> /&gt;</span>
+<span class="hljs-comment">&lt;!-- &#x53EF;&#x9009;default&#x3001;black&#x3001;black-translucent --&gt;</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="general.html" class="navigation navigation-prev " aria-label="Previous page: 通用约定">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="adaptation.html" class="navigation navigation-next " aria-label="Next page: 移动端适配">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"性能优化","level":"1.8.2","depth":2,"next":{"title":"移动端适配","level":"1.8.3","depth":2,"path":"mobile/adaptation.md","ref":"mobile/adaptation.md","articles":[]},"previous":{"title":"通用约定","level":"1.8.1","depth":2,"path":"mobile/general.md","ref":"mobile/general.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":" "},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":false,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":36,"left":36,"top":36,"bottom":36},"toc":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"前端暂行规范v1.1","links":{"home":"","about":"","issues":null,"contribute":null},"gitbook":"*"},"file":{"path":"mobile/performance.md","mtime":"2017-11-09T09:32:15.930Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-10T06:52:29.297Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
