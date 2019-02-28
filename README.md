@@ -17,7 +17,7 @@
 <!--#####Github: [仓库地址](https://github.com/Aaaaaashu/Front-End-Style-Guide)
 #####知笔墨：[手册地址](http://zhibimo.com/read/Ashu/front-end-style-guide/)  -->
 
-** 更新日期：2017年11月9日 **
+** 更新日期：2019年2月 **
 
 ## 目录
 * [Introduction](index.html)
